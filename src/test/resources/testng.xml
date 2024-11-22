@@ -1,9 +1,12 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TestAutothon">
-	<test name="TestCases" parallel="classes" thread-count="2">
-		<classes>
-			<class name="testCases.Step_IN_Mob" />
-			<class name="testCases.Step_IN_UI" />
-		</classes>
-	</test>
+
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutoHacothon" verbose="3">
+	<suite-files>
+  
+<suite-file path="./testngUI.xml"/> 
+ <suite-file path="./testngAPI.xml"/>
+<suite-file path="./testngMobile.xml"/>
+</suite-files>
 </suite>
