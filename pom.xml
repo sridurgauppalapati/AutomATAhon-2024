@@ -168,7 +168,7 @@
 				<configuration>
 					<useSystemClassLoader>false</useSystemClassLoader>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/testngUI.xml</suiteXmlFile>
 						
 					</suiteXmlFiles>
 				</configuration>
