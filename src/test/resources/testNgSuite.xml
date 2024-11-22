@@ -14,7 +14,7 @@
 </classes>
 </test>
 <test name="MobileMode">
-<parameter name="env" value="Mob" />
+<parameter name="env" value="Mobile" />
 <classes>
 <class name="testCases.Step_IN_Mob" />
 </classes>
