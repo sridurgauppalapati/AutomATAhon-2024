@@ -37,7 +37,7 @@ public class Step_IN_Parallel extends Global {
 		TestNG runner = new TestNG();
 		if(Mode.equals("UI")) {
 		try {
-			ui.TC_UI_Launch_Youtube();
+			ui.TC_UI_Launch_IndianExpress();
 //			ui.TC_UI_Search_StepInForum();
 //			ui.TC_UI_VideoLink();
 //			ui.TC_UI_GetVideoNameViaApi();
