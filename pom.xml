@@ -169,7 +169,6 @@
 				<configuration>
 					<useSystemClassLoader>false</useSystemClassLoader>
 					<suiteXmlFiles>
-						
 						<suiteXmlFile>${suiteFile}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>

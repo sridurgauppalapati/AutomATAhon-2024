@@ -1,6 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestAutothon">
 	<test name="TestCases">
+		<parameter name="env" value="API" />
 		<classes>
 			<class name="testCases.Step_IN_API" />
 		</classes>
