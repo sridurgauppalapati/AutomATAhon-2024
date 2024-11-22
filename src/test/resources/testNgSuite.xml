@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAutothon" parallel="tests">
+<test name="UIMode">
+<parameter name="Mode" value="UI" />
+<classes>
+<class name="testCases.Step_IN_UI" />
+</classes>
+</test>
+<test name="MobileMode">
+<parameter name="Mode" value="Mobile" />
+<classes>
+<class name="testCases.Step_IN_Mob" />
+</classes>
+</test>
+</suite>

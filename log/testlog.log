@@ -1,0 +1,445 @@
+2019-08-14 17:18:55,131 - AgilityLoyalty -INFO - 1
+2019-08-16 09:23:18,908 - AgilityLoyalty -INFO - 1
+2019-08-16 09:47:25,434 - AgilityLoyalty -INFO - 1
+2019-08-16 09:50:13,871 - AgilityLoyalty -INFO - 1
+2019-08-16 09:55:38,034 - AgilityLoyalty -INFO - 1
+2019-08-16 09:56:58,867 - AgilityLoyalty -INFO - 1
+2019-08-16 09:59:23,174 - AgilityLoyalty -INFO - 1
+2019-08-16 10:00:44,681 - AgilityLoyalty -INFO - 1
+2019-08-16 10:02:43,913 - AgilityLoyalty -INFO - 1
+2019-08-16 10:04:54,095 - AgilityLoyalty -INFO - 1
+2019-08-18 23:20:34,091 - AgilityLoyalty -INFO - 1
+2019-08-18 23:23:58,343 - AgilityLoyalty -INFO - 1
+2019-08-18 23:24:29,976 - AgilityLoyalty -INFO - 1
+2019-08-18 23:27:22,740 - AgilityLoyalty -INFO - 1
+2019-08-18 23:28:28,865 - AgilityLoyalty -INFO - 1
+2019-08-18 23:32:37,988 - AgilityLoyalty -INFO - 1
+2019-08-18 23:39:04,540 - AgilityLoyalty -INFO - 1
+2019-08-18 23:45:05,403 - AgilityLoyalty -INFO - 1
+2019-08-19 03:31:40,860 - AgilityLoyalty -INFO - 1
+2019-08-19 04:15:20,697 - AgilityLoyalty -INFO - 1
+2019-08-19 04:24:41,674 - AgilityLoyalty -INFO - 1
+2019-08-19 05:13:10,257 - AgilityLoyalty -INFO - 1
+2019-08-19 05:15:52,700 - AgilityLoyalty -INFO - 1
+2019-08-19 05:41:18,882 - AgilityLoyalty -INFO - 1
+2019-08-19 05:42:33,064 - AgilityLoyalty -INFO - 1
+2019-08-19 05:45:19,056 - AgilityLoyalty -INFO - 1
+2019-08-19 05:45:47,591 - AgilityLoyalty -INFO - 1
+2019-08-19 05:53:06,928 - AgilityLoyalty -INFO - 1
+2019-08-19 05:53:32,676 - AgilityLoyalty -INFO - 1
+2019-08-19 05:54:44,976 - AgilityLoyalty -INFO - 1
+2019-08-19 05:55:26,722 - AgilityLoyalty -INFO - 1
+2019-08-19 05:56:21,042 - AgilityLoyalty -INFO - 1
+2019-08-19 05:58:05,492 - AgilityLoyalty -INFO - 1
+2019-08-19 06:00:22,543 - AgilityLoyalty -INFO - 1
+2019-08-19 06:02:08,299 - AgilityLoyalty -INFO - 1
+2019-08-19 06:04:44,366 - AgilityLoyalty -INFO - 1
+2019-08-19 06:05:59,652 - AgilityLoyalty -INFO - 1
+2019-08-19 06:07:25,795 - AgilityLoyalty -INFO - 1
+2019-08-19 06:12:17,614 - AgilityLoyalty -INFO - 1
+2019-08-19 06:14:47,970 - AgilityLoyalty -INFO - 1
+2019-08-21 13:46:22,303 - AgilityLoyalty -INFO - Failed to write response to data properties due to exception Failed to parse the JSON document
+2019-08-21 13:53:23,236 - AgilityLoyalty -INFO - Launch
+2019-08-21 13:53:52,346 - AgilityLoyalty -INFO - Launch
+2019-08-21 13:53:58,593 - AgilityLoyalty -INFO - Enter
+2019-08-21 13:53:59,053 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 13:55:04,189 - AgilityLoyalty -INFO - Launch
+2019-08-21 13:55:05,855 - AgilityLoyalty -INFO - Enter
+2019-08-21 13:55:06,336 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 13:55:13,742 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 13:55:16,786 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-21 13:55:35,170 - AgilityLoyalty -INFO - Failed to write response to data properties due to exception Failed to parse the JSON document
+2019-08-21 13:55:35,938 - AgilityLoyalty -INFO - API uploaded response
+2019-08-21 13:55:36,847 - AgilityLoyalty -INFO - API Get response
+2019-08-21 14:00:14,334 - AgilityLoyalty -INFO - Launch
+2019-08-21 14:00:18,917 - AgilityLoyalty -INFO - Enter
+2019-08-21 14:00:19,278 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 14:50:03,912 - AgilityLoyalty -INFO - Launch
+2019-08-21 14:51:10,597 - AgilityLoyalty -INFO - Launch
+2019-08-21 14:51:15,249 - AgilityLoyalty -INFO - Enter
+2019-08-21 14:51:15,725 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 14:52:18,887 - AgilityLoyalty -INFO - Launch
+2019-08-21 14:52:20,377 - AgilityLoyalty -INFO - Enter
+2019-08-21 14:52:20,798 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 14:52:27,630 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 14:52:28,215 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-21 14:53:01,147 - AgilityLoyalty -INFO - Launch
+2019-08-21 14:53:05,456 - AgilityLoyalty -INFO - Enter
+2019-08-21 14:53:05,799 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 14:54:58,946 - AgilityLoyalty -INFO - Launch
+2019-08-21 14:55:00,129 - AgilityLoyalty -INFO - Enter
+2019-08-21 14:55:00,575 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 14:55:08,103 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 14:55:17,554 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-21 14:55:18,029 - AgilityLoyalty -INFO - Video Not Found in list
+2019-08-21 14:56:50,255 - AgilityLoyalty -INFO - Launch
+2019-08-21 14:56:55,013 - AgilityLoyalty -INFO - Enter
+2019-08-21 14:56:55,421 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 14:57:31,263 - AgilityLoyalty -INFO - Launch
+2019-08-21 14:57:32,546 - AgilityLoyalty -INFO - Enter
+2019-08-21 14:57:32,964 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 14:57:40,647 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 14:57:41,198 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-21 14:58:25,241 - AgilityLoyalty -INFO - Launch
+2019-08-21 14:58:26,705 - AgilityLoyalty -INFO - Enter
+2019-08-21 14:58:27,169 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 14:58:33,822 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 14:58:39,127 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-21 14:58:56,755 - AgilityLoyalty -INFO - API uploaded response
+2019-08-21 14:58:57,754 - AgilityLoyalty -INFO - API Get response
+2019-08-21 15:15:51,774 - AgilityLoyalty -INFO - Launch
+2019-08-21 15:21:20,495 - AgilityLoyalty -INFO - Launch
+2019-08-21 15:40:30,677 - AgilityLoyalty -INFO - Launch
+2019-08-21 15:41:22,668 - AgilityLoyalty -INFO - Enter
+2019-08-21 15:41:24,217 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 15:41:34,792 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 15:55:48,958 - AgilityLoyalty -INFO - Launch
+2019-08-21 15:55:58,895 - AgilityLoyalty -INFO - Enter
+2019-08-21 15:56:00,483 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 15:56:11,109 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 16:19:19,394 - AgilityLoyalty -INFO - Launch
+2019-08-21 16:19:22,072 - AgilityLoyalty -INFO - Enter
+2019-08-21 16:19:22,631 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 16:19:31,168 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 16:19:39,414 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-21 16:19:58,707 - AgilityLoyalty -INFO - API uploaded response
+2019-08-21 16:19:59,573 - AgilityLoyalty -INFO - API Get response
+2019-08-21 19:51:33,591 - AgilityLoyalty -INFO - Launch
+2019-08-21 19:51:42,377 - AgilityLoyalty -INFO - Enter
+2019-08-21 20:57:29,814 - AgilityLoyalty -INFO - Launch
+2019-08-21 20:57:31,653 - AgilityLoyalty -INFO - Enter
+2019-08-21 20:57:34,293 - AgilityLoyalty -INFO - Select
+2019-08-21 20:57:39,485 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 20:57:41,550 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-21 20:57:58,710 - AgilityLoyalty -INFO - API uploaded response
+2019-08-21 20:57:59,348 - AgilityLoyalty -INFO - API Get response
+2019-08-21 21:05:39,569 - AgilityLoyalty -INFO - Launch
+2019-08-21 21:05:41,204 - AgilityLoyalty -INFO - Enter
+2019-08-21 21:05:46,422 - AgilityLoyalty -INFO - Select
+2019-08-21 21:05:51,671 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 21:05:52,567 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-21 21:06:09,298 - AgilityLoyalty -INFO - Selecting
+2019-08-21 21:06:11,549 - AgilityLoyalty -INFO - API uploaded response
+2019-08-21 21:06:12,597 - AgilityLoyalty -INFO - API Get response
+2019-08-21 21:14:30,689 - AgilityLoyalty -INFO - Launch
+2019-08-21 21:14:41,571 - AgilityLoyalty -INFO - Enter
+2019-08-21 21:14:44,883 - AgilityLoyalty -INFO - Launch
+2019-08-21 21:19:11,384 - AgilityLoyalty -INFO - Launch
+2019-08-21 21:19:20,051 - AgilityLoyalty -INFO - Enter
+2019-08-21 21:19:21,582 - AgilityLoyalty -INFO - Step In Forum Launched
+2019-08-21 21:19:30,868 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 21:21:47,513 - AgilityLoyalty -INFO - Launch
+2019-08-21 21:21:50,796 - AgilityLoyalty -INFO - Enter
+2019-08-21 21:21:55,001 - AgilityLoyalty -INFO - Select
+2019-08-21 21:22:05,508 - AgilityLoyalty -INFO - Launch
+2019-08-21 21:22:08,243 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 21:31:12,461 - AgilityLoyalty -INFO - Launch
+2019-08-21 21:31:14,540 - AgilityLoyalty -INFO - Enter
+2019-08-21 21:59:13,196 - AgilityLoyalty -INFO - Launch
+2019-08-21 21:59:14,703 - AgilityLoyalty -INFO - Enter
+2019-08-21 21:59:18,874 - AgilityLoyalty -INFO - Select
+2019-08-21 21:59:24,189 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 21:59:33,262 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-21 21:59:49,425 - AgilityLoyalty -INFO - Selecting
+2019-08-21 21:59:50,493 - AgilityLoyalty -INFO - API uploaded response
+2019-08-21 21:59:51,254 - AgilityLoyalty -INFO - API Get response
+2019-08-21 22:06:21,450 - AgilityLoyalty -INFO - Launch
+2019-08-21 22:06:22,627 - AgilityLoyalty -INFO - Enter
+2019-08-21 22:06:25,592 - AgilityLoyalty -INFO - Select
+2019-08-21 22:06:30,975 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 22:06:44,740 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-21 22:07:01,002 - AgilityLoyalty -INFO - Selecting
+2019-08-21 22:07:02,130 - AgilityLoyalty -INFO - API uploaded response
+2019-08-21 22:07:02,809 - AgilityLoyalty -INFO - API Get response
+2019-08-21 22:22:24,394 - AgilityLoyalty -INFO - Launch
+2019-08-21 22:22:39,207 - AgilityLoyalty -INFO - Enter
+2019-08-21 22:22:46,769 - AgilityLoyalty -INFO - Select
+2019-08-21 22:22:57,381 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 22:28:42,478 - AgilityLoyalty -INFO - Launch
+2019-08-21 22:28:51,345 - AgilityLoyalty -INFO - Enter
+2019-08-21 22:28:57,357 - AgilityLoyalty -INFO - Select
+2019-08-21 22:29:05,246 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 22:30:41,997 - AgilityLoyalty -INFO - Launch
+2019-08-21 22:30:44,404 - AgilityLoyalty -INFO - Enter
+2019-08-21 22:30:47,724 - AgilityLoyalty -INFO - Select
+2019-08-21 22:30:54,458 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 22:31:11,361 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-21 22:31:27,632 - AgilityLoyalty -INFO - Selecting
+2019-08-21 22:31:28,979 - AgilityLoyalty -INFO - API uploaded response
+2019-08-21 22:31:29,663 - AgilityLoyalty -INFO - API Get response
+2019-08-21 22:50:20,600 - AgilityLoyalty -INFO - Launch
+2019-08-21 22:50:20,612 - AgilityLoyalty -INFO - Launch
+2019-08-21 22:50:23,130 - AgilityLoyalty -INFO - Enter
+2019-08-21 22:50:30,378 - AgilityLoyalty -INFO - Select
+2019-08-21 22:50:31,379 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 22:50:34,464 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 22:50:37,255 - AgilityLoyalty -INFO - Element not found within the given time
+2019-08-21 22:50:38,567 - AgilityLoyalty -INFO - API uploaded response
+2019-08-21 22:50:39,489 - AgilityLoyalty -INFO - API Get response
+2019-08-21 22:50:40,087 - AgilityLoyalty -ERROR - Failed to log in reportStream closed
+2019-08-21 22:50:51,093 - AgilityLoyalty -ERROR - Stream closed
+2019-08-21 22:50:56,688 - AgilityLoyalty -ERROR - Failed to log in reportStream closed
+2019-08-21 22:50:56,697 - AgilityLoyalty -ERROR - Stream closed
+2019-08-21 22:50:57,958 - AgilityLoyalty -ERROR - Failed to log in reportStream closed
+2019-08-21 22:50:58,769 - AgilityLoyalty -ERROR - Failed to log in reportStream closed
+2019-08-21 23:10:20,743 - AgilityLoyalty -INFO - Launch
+2019-08-21 23:10:29,432 - AgilityLoyalty -INFO - Enter
+2019-08-21 23:10:35,684 - AgilityLoyalty -INFO - Select
+2019-08-21 23:10:43,169 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 23:34:26,899 - AgilityLoyalty -INFO - Launch
+2019-08-21 23:34:35,070 - AgilityLoyalty -INFO - Enter
+2019-08-21 23:34:39,838 - AgilityLoyalty -INFO - Select
+2019-08-21 23:34:46,991 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 23:36:10,201 - AgilityLoyalty -INFO - Launch
+2019-08-21 23:36:16,963 - AgilityLoyalty -INFO - Enter
+2019-08-21 23:36:22,035 - AgilityLoyalty -INFO - Select
+2019-08-21 23:36:53,964 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 23:38:56,921 - AgilityLoyalty -INFO - Launch
+2019-08-21 23:39:04,073 - AgilityLoyalty -INFO - Enter
+2019-08-21 23:39:08,721 - AgilityLoyalty -INFO - Select
+2019-08-21 23:39:15,567 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 23:41:39,638 - AgilityLoyalty -INFO - Launch
+2019-08-21 23:41:46,812 - AgilityLoyalty -INFO - Enter
+2019-08-21 23:41:52,109 - AgilityLoyalty -INFO - Select
+2019-08-21 23:41:59,311 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 23:43:54,902 - AgilityLoyalty -INFO - Launch
+2019-08-21 23:44:03,602 - AgilityLoyalty -INFO - Enter
+2019-08-21 23:44:09,405 - AgilityLoyalty -INFO - Select
+2019-08-21 23:44:15,951 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 23:46:43,443 - AgilityLoyalty -INFO - Launch
+2019-08-21 23:46:52,940 - AgilityLoyalty -INFO - Enter
+2019-08-21 23:47:00,023 - AgilityLoyalty -INFO - Select
+2019-08-21 23:47:06,508 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 23:47:10,295 - AgilityLoyalty -INFO - Failed to select video from list due to exception An unknown server-side error occurred while processing the command. Original error: unknown error: Element <div class="cbox">...</div> is not clickable at point (205, 685). Other element would receive the click: <div class="pivot-bar-item-title">...</div>
+  (Session info: chrome=74.0.3729.186)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.10586 x86_64)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-TMMJ66L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appiumVersion: 1.13.0, autoAcceptAlerts: true, browserName: Chrome, databaseEnabled: false, desired: {appiumVersion: 1.13.0, autoAcceptAlerts: true, browserName: Chrome, deviceName: emulator-5554, platformName: android, platformVersion: 10}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 10, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: a62d1790-08bf-4c9f-8c17-9a47ea55bb27
+2019-08-21 23:47:16,760 - AgilityLoyalty -INFO - Element not found within the given time
+2019-08-21 23:47:19,130 - AgilityLoyalty -INFO - API uploaded response
+2019-08-21 23:47:20,986 - AgilityLoyalty -INFO - API Get response
+2019-08-21 23:52:00,543 - AgilityLoyalty -INFO - Launch
+2019-08-21 23:52:08,102 - AgilityLoyalty -INFO - Enter
+2019-08-21 23:52:13,502 - AgilityLoyalty -INFO - Select
+2019-08-21 23:52:20,711 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 23:52:25,078 - AgilityLoyalty -INFO - Failed to select video from list due to exception An unknown server-side error occurred while processing the command. Original error: unknown error: Element <div class="cbox">...</div> is not clickable at point (205, 685). Other element would receive the click: <div class="pivot-bar-item-title">...</div>
+  (Session info: chrome=74.0.3729.186)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.10586 x86_64)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-TMMJ66L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appiumVersion: 1.13.0, autoAcceptAlerts: true, browserName: Chrome, databaseEnabled: false, desired: {appiumVersion: 1.13.0, autoAcceptAlerts: true, browserName: Chrome, deviceName: emulator-5554, platformName: android, platformVersion: 10}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 10, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 15d60641-891e-465c-a8b7-6d15456da081
+2019-08-21 23:52:31,595 - AgilityLoyalty -INFO - Element not found within the given time
+2019-08-21 23:52:34,043 - AgilityLoyalty -INFO - API uploaded response
+2019-08-21 23:52:35,962 - AgilityLoyalty -INFO - API Get response
+2019-08-21 23:57:46,773 - AgilityLoyalty -INFO - Launch
+2019-08-21 23:57:53,698 - AgilityLoyalty -INFO - Enter
+2019-08-21 23:57:58,436 - AgilityLoyalty -INFO - Select
+2019-08-21 23:58:05,579 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-21 23:58:09,337 - AgilityLoyalty -INFO - Failed to select video from list due to exception An unknown server-side error occurred while processing the command. Original error: unknown error: Element <div class="cbox">...</div> is not clickable at point (205, 685). Other element would receive the click: <div class="pivot-bar-item-title">...</div>
+  (Session info: chrome=74.0.3729.186)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.10586 x86_64)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-TMMJ66L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appiumVersion: 1.13.0, autoAcceptAlerts: true, browserName: Chrome, databaseEnabled: false, desired: {appiumVersion: 1.13.0, autoAcceptAlerts: true, browserName: Chrome, deviceName: emulator-5554, platformName: android, platformVersion: 10}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 10, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 747fda33-5148-433d-a45a-2145be44b859
+2019-08-21 23:58:15,789 - AgilityLoyalty -INFO - Element not found within the given time
+2019-08-21 23:58:18,103 - AgilityLoyalty -INFO - API uploaded response
+2019-08-21 23:58:20,110 - AgilityLoyalty -INFO - API Get response
+2019-08-22 00:16:05,218 - AgilityLoyalty -INFO - Launch
+2019-08-22 00:16:20,267 - AgilityLoyalty -INFO - Enter
+2019-08-22 00:16:23,424 - AgilityLoyalty -INFO - Launch
+2019-08-22 00:16:31,061 - AgilityLoyalty -INFO - Element not found within the given time
+2019-08-22 00:28:15,406 - AgilityLoyalty -INFO - Launch
+2019-08-22 00:28:22,241 - AgilityLoyalty -INFO - Enter
+2019-08-22 00:28:27,157 - AgilityLoyalty -INFO - Select
+2019-08-22 00:28:34,518 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 00:28:39,010 - AgilityLoyalty -INFO - Failed to select video from list due to exception An unknown server-side error occurred while processing the command. Original error: unknown error: Element <div class="cbox">...</div> is not clickable at point (205, 685). Other element would receive the click: <div class="pivot-bar-item-title">...</div>
+  (Session info: chrome=74.0.3729.186)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.10586 x86_64)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-TMMJ66L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appiumVersion: 1.13.0, autoAcceptAlerts: true, browserName: Chrome, databaseEnabled: false, desired: {appiumVersion: 1.13.0, autoAcceptAlerts: true, browserName: Chrome, deviceName: emulator-5554, platformName: android, platformVersion: 10}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 10, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 49f1d47c-6c0b-4aeb-a233-70b2f9d1979f
+2019-08-22 00:28:45,847 - AgilityLoyalty -INFO - Element not found within the given time
+2019-08-22 00:28:48,280 - AgilityLoyalty -INFO - API uploaded response
+2019-08-22 00:28:50,488 - AgilityLoyalty -INFO - API Get response
+2019-08-22 00:32:16,135 - AgilityLoyalty -INFO - Launch
+2019-08-22 00:32:23,191 - AgilityLoyalty -INFO - Enter
+2019-08-22 00:32:27,775 - AgilityLoyalty -INFO - Select
+2019-08-22 00:32:34,242 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 00:32:40,863 - AgilityLoyalty -INFO - Failed to select video from list due to exception null
+2019-08-22 00:32:47,055 - AgilityLoyalty -INFO - Element not found within the given time
+2019-08-22 00:32:49,179 - AgilityLoyalty -INFO - API uploaded response
+2019-08-22 00:32:50,958 - AgilityLoyalty -INFO - API Get response
+2019-08-22 00:39:15,477 - AgilityLoyalty -INFO - Launch
+2019-08-22 00:39:23,735 - AgilityLoyalty -INFO - Enter
+2019-08-22 00:39:29,590 - AgilityLoyalty -INFO - Select
+2019-08-22 00:39:36,869 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 00:39:46,918 - AgilityLoyalty -INFO - Failed to select video from list due to exception null
+2019-08-22 00:39:53,366 - AgilityLoyalty -INFO - Element not found within the given time
+2019-08-22 00:39:55,498 - AgilityLoyalty -INFO - API uploaded response
+2019-08-22 00:39:57,307 - AgilityLoyalty -INFO - API Get response
+2019-08-22 00:42:37,129 - AgilityLoyalty -INFO - Launch
+2019-08-22 00:42:46,212 - AgilityLoyalty -INFO - Enter
+2019-08-22 00:42:51,581 - AgilityLoyalty -INFO - Select
+2019-08-22 00:43:06,649 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 00:47:59,407 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-22 00:49:32,554 - AgilityLoyalty -INFO - Launch
+2019-08-22 00:49:41,611 - AgilityLoyalty -INFO - Enter
+2019-08-22 00:49:50,210 - AgilityLoyalty -INFO - Select
+2019-08-22 00:49:56,776 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 00:50:04,062 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-22 00:50:08,057 - AgilityLoyalty -INFO - Failed to select video from list due to exception element not interactable
+  (Session info: chrome=74.0.3729.186)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.10586 x86_64)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-TMMJ66L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appiumVersion: 1.13.0, autoAcceptAlerts: true, browserName: Chrome, databaseEnabled: false, desired: {appiumVersion: 1.13.0, autoAcceptAlerts: true, browserName: Chrome, deviceName: emulator-5554, platformName: android, platformVersion: 10}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 10, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: b02eda2a-690f-4f5a-9541-2778126ce194
+2019-08-22 00:50:10,441 - AgilityLoyalty -INFO - API uploaded response
+2019-08-22 00:50:12,325 - AgilityLoyalty -INFO - API Get response
+2019-08-22 00:52:49,897 - AgilityLoyalty -INFO - Launch
+2019-08-22 00:52:55,458 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 00:52:58,873 - AgilityLoyalty -INFO - Failed to select video from list due to exception null
+2019-08-22 00:53:01,514 - AgilityLoyalty -INFO - API uploaded response
+2019-08-22 00:53:04,040 - AgilityLoyalty -INFO - API Get response
+2019-08-22 00:53:39,509 - AgilityLoyalty -INFO - Launch
+2019-08-22 00:53:47,568 - AgilityLoyalty -INFO - Enter
+2019-08-22 00:53:53,742 - AgilityLoyalty -INFO - Select
+2019-08-22 00:54:00,516 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 00:54:08,297 - AgilityLoyalty -INFO - Failed to select video from list due to exception null
+2019-08-22 00:54:10,307 - AgilityLoyalty -INFO - API uploaded response
+2019-08-22 00:54:12,216 - AgilityLoyalty -INFO - API Get response
+2019-08-22 00:55:08,981 - AgilityLoyalty -INFO - Launch
+2019-08-22 00:55:16,564 - AgilityLoyalty -INFO - Enter
+2019-08-22 00:55:21,548 - AgilityLoyalty -INFO - Select
+2019-08-22 00:55:28,244 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 00:55:35,539 - AgilityLoyalty -INFO - Failed to select video from list due to exception null
+2019-08-22 00:55:37,766 - AgilityLoyalty -INFO - API uploaded response
+2019-08-22 00:55:39,661 - AgilityLoyalty -INFO - API Get response
+2019-08-22 00:59:40,389 - AgilityLoyalty -INFO - Launch
+2019-08-22 00:59:48,519 - AgilityLoyalty -INFO - Enter
+2019-08-22 00:59:54,748 - AgilityLoyalty -INFO - Select
+2019-08-22 01:00:01,511 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 01:00:47,249 - AgilityLoyalty -INFO - Failed to select video from list due to exception null
+2019-08-22 01:00:49,355 - AgilityLoyalty -INFO - API uploaded response
+2019-08-22 01:00:51,232 - AgilityLoyalty -INFO - API Get response
+2019-08-22 01:02:05,876 - AgilityLoyalty -INFO - Launch
+2019-08-22 01:02:14,432 - AgilityLoyalty -INFO - Enter
+2019-08-22 01:02:20,902 - AgilityLoyalty -INFO - Select
+2019-08-22 01:02:32,821 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 01:05:35,591 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-22 01:07:01,772 - AgilityLoyalty -INFO - Launch
+2019-08-22 01:07:10,535 - AgilityLoyalty -INFO - Enter
+2019-08-22 01:07:16,865 - AgilityLoyalty -INFO - Select
+2019-08-22 01:07:24,127 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 01:07:31,434 - AgilityLoyalty -INFO - Failed to scroll the page due to exception stale element reference: element is not attached to the page document
+  (Session info: chrome=74.0.3729.186)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.10586 x86_64)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-TMMJ66L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appiumVersion: 1.13.0, autoAcceptAlerts: true, browserName: Chrome, databaseEnabled: false, desired: {appiumVersion: 1.13.0, autoAcceptAlerts: true, browserName: Chrome, deviceName: emulator-5554, platformName: android, platformVersion: 10}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 10, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: a26621c7-a726-4436-af58-6bb09d06cb96
+2019-08-22 01:07:37,205 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-22 01:08:26,470 - AgilityLoyalty -INFO - API uploaded response
+2019-08-22 01:08:31,442 - AgilityLoyalty -INFO - API Get response
+2019-08-22 01:11:17,322 - AgilityLoyalty -INFO - Launch
+2019-08-22 01:11:25,482 - AgilityLoyalty -INFO - Enter
+2019-08-22 01:11:33,716 - AgilityLoyalty -INFO - Select
+2019-08-22 01:11:40,892 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 01:11:47,244 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-22 01:12:43,425 - AgilityLoyalty -INFO - API uploaded response
+2019-08-22 01:12:51,793 - AgilityLoyalty -INFO - API Get response
+2019-08-22 01:14:31,609 - AgilityLoyalty -INFO - Launch
+2019-08-22 01:14:39,860 - AgilityLoyalty -INFO - Enter
+2019-08-22 01:14:47,018 - AgilityLoyalty -INFO - Select
+2019-08-22 01:14:54,737 - AgilityLoyalty -INFO - Get Video name via API
+2019-08-22 01:15:20,855 - AgilityLoyalty -INFO - Screenshot Of Video
+2019-08-22 01:16:28,376 - AgilityLoyalty -INFO - API uploaded response
+2019-08-22 01:16:37,712 - AgilityLoyalty -INFO - API Get response
+2024-08-22 12:17:05,979 - AgilityLoyalty -ERROR - Stream closed
+2024-08-22 12:17:27,052 - AgilityLoyalty -ERROR - Stream closed
+2024-08-22 12:17:31,365 - AgilityLoyalty -ERROR - Stream closed
+2024-08-22 16:07:34,179 - AgilityLoyalty -ERROR - Stream closed
+2024-08-22 16:07:38,330 - AgilityLoyalty -ERROR - Stream closed
+2024-08-22 16:33:45,169 - AgilityLoyalty -INFO - Enter
+2024-08-22 16:33:45,223 - AgilityLoyalty -INFO - Enter
+2024-08-22 16:33:45,284 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-08-22 16:33:45,655 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-08-22 16:33:50,643 - AgilityLoyalty -ERROR - Stream closed
+2024-08-22 16:33:50,659 - AgilityLoyalty -ERROR - Stream closed
+2024-08-22 16:33:59,555 - AgilityLoyalty -ERROR - Stream closed
+2024-08-22 16:33:59,594 - AgilityLoyalty -ERROR - Stream closed
+2024-08-22 16:34:11,731 - AgilityLoyalty -ERROR - Stream closed
+2024-08-22 16:34:16,098 - AgilityLoyalty -ERROR - Stream closed
+2024-08-22 16:34:20,651 - AgilityLoyalty -ERROR - Stream closed
+2024-08-22 16:34:24,898 - AgilityLoyalty -ERROR - Stream closed
+2024-08-23 11:32:51,115 - AgilityLoyalty -ERROR - Stream closed
+2024-08-23 11:32:55,155 - AgilityLoyalty -ERROR - Stream closed
+2024-08-23 12:16:38,166 - AgilityLoyalty -INFO - Launch
+2024-08-23 12:16:38,517 - AgilityLoyalty -INFO - Launch
+2024-08-23 12:22:40,216 - AgilityLoyalty -INFO - Launch
+2024-08-23 12:22:51,040 - AgilityLoyalty -INFO - Launch
+2024-08-23 12:22:56,696 - AgilityLoyalty -INFO - Enter
+2024-08-23 12:23:20,209 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-08-23 12:23:30,524 - AgilityLoyalty -INFO - Element not found within the given time
+2024-08-23 12:23:46,685 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-08-23 12:24:01,768 - AgilityLoyalty -ERROR - Stream closed
+2024-08-23 12:24:05,931 - AgilityLoyalty -ERROR - Stream closed
+2024-08-23 17:20:24,470 - AgilityLoyalty -INFO - Launch
+2024-08-23 17:20:31,440 - AgilityLoyalty -INFO - Enter
+2024-08-23 17:21:01,971 - AgilityLoyalty -INFO - Element not found within the given time
+2024-08-23 17:52:25,399 - AgilityLoyalty -INFO - Launch
+2024-08-23 17:52:57,941 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-08-23 17:53:24,543 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-08-23 18:21:40,044 - AgilityLoyalty -INFO - Launch
+2024-08-23 18:22:13,265 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-08-23 18:22:39,897 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-08-23 18:28:50,488 - AgilityLoyalty -INFO - Launch
+2024-11-22 07:40:01,885 - AgilityLoyalty -INFO - Launch
+2024-11-22 07:40:02,600 - AgilityLoyalty -INFO - Enter
+2024-11-22 07:40:32,109 - AgilityLoyalty -INFO - Element not found within the given time
+2024-11-22 07:41:04,163 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-11-22 07:41:04,355 - AgilityLoyalty -INFO - Failed to scroll the page due to exception javascript error: {"status":60,"value":"[object HTMLButtonElement] has no size and location"}
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a25c95bb3f50a940c2cee4360496a1cd
+2024-11-22 07:41:08,799 - AgilityLoyalty -INFO - Element not found within the given time
+2024-11-22 07:41:40,144 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-11-22 08:51:40,801 - AgilityLoyalty -INFO - Launch
+2024-11-22 08:51:41,132 - AgilityLoyalty -INFO - Enter
+2024-11-22 08:52:10,607 - AgilityLoyalty -INFO - Element not found within the given time
+2024-11-22 08:52:43,286 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-11-22 08:52:43,474 - AgilityLoyalty -INFO - Failed to scroll the page due to exception javascript error: {"status":60,"value":"[object HTMLButtonElement] has no size and location"}
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c53ad582247fea821de0e0c6119bb30b
+2024-11-22 08:52:47,936 - AgilityLoyalty -INFO - Element not found within the given time
+2024-11-22 08:53:19,377 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-11-22 10:20:59,385 - AgilityLoyalty -INFO - Launch
+2024-11-22 10:20:59,867 - AgilityLoyalty -INFO - Enter
+2024-11-22 12:53:11,092 - AgilityLoyalty -INFO - Launch
+2024-11-22 12:53:43,589 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-11-22 12:54:18,321 - AgilityLoyalty -INFO - Element not found within the given time
+2024-11-22 15:02:56,088 - AgilityLoyalty -INFO - Launch
+2024-11-22 15:03:31,875 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-11-22 15:04:06,426 - AgilityLoyalty -INFO - Element not found within the given time
+2024-11-22 15:04:37,839 - AgilityLoyalty -INFO - Failed to Post due to exception Connection timed out: connect
+2024-11-22 16:04:51,468 - AgilityLoyalty -INFO - Launch
+2024-11-22 16:04:52,753 - AgilityLoyalty -INFO - Enter

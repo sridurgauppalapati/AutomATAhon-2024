@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAutothon">
+	<test name="TestCases" parallel="classes" thread-count="2">
+		<classes>
+			<class name="testCases.Step_IN_Mob" />
+			<class name="testCases.Step_IN_UI" />
+		</classes>
+	</test>
+</suite>

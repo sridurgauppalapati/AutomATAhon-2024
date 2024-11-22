@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAutothon">
+	<test name="TestCases">
+		<classes>
+			<class name="testCases.Step_IN_Mob" />
+		</classes>
+	</test>
+</suite>
