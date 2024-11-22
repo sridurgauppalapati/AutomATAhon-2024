@@ -5,6 +5,9 @@
 	<groupId>TestCases</groupId>
 	<artifactId>testNgMavenExample</artifactId>
 	<version>1</version>
+	<properties>
+		<suiteFile>testngUI.xml</suiteFile>
+	</properties>
 	<dependencies>
 
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
@@ -166,7 +169,8 @@
 				<configuration>
 					<useSystemClassLoader>false</useSystemClassLoader>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+						
+						<suiteXmlFile>${suiteFile}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
