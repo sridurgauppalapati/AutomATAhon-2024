@@ -32,7 +32,7 @@ public class Reporting extends BrowserConfig {
 	public static Logger l4jlogger = Logger.getLogger("AgilityLoyalty");
 
 	public Reporting() {
-		PropertyConfigurator.configure("Log4j.properties");
+		PropertyConfigurator.configure("log4j.properties");
 	}
 
 	// Extent
