@@ -20,7 +20,7 @@ public class Step_IN_UI extends Global {
 	public APICommon api = new APICommon();
 
 	@Test(priority = 0)
-	public void TC_UI_Launch_Youtube() {
+	public void TC_UI_Launch_IndianExpress() {
 		common.Launch("UI", "https://indianexpress.com/");
 		logger.logPass("Launch", "Step In Forum Launched");
 	}

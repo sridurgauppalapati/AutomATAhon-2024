@@ -15,7 +15,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import api.APICommon;
 
-public class Stop_IN_API {
+public class Step_IN_API {
 
 	APICommon api = new APICommon();
 

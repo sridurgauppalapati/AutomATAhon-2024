@@ -2,16 +2,16 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-22T15:27:23Z" name="Default suite" finished-at="2024-11-22T15:27:26Z" duration-ms="2986">
+  <suite started-at="2024-11-22T15:42:55Z" name="TestAutothon" finished-at="2024-11-22T15:42:58Z" duration-ms="2910">
     <groups>
     </groups>
-    <test started-at="2024-11-22T15:27:23Z" name="Default test" finished-at="2024-11-22T15:27:26Z" duration-ms="2986">
-      <class name="testCases.ApiTest">
-        <test-method signature="RegistrationSuccessful()[pri:0, instance:testCases.ApiTest@5cde6747]" started-at="2024-11-22T20:57:23Z" name="RegistrationSuccessful" finished-at="2024-11-22T20:57:26Z" duration-ms="2965" status="PASS">
+    <test started-at="2024-11-22T15:42:55Z" name="TestCases" finished-at="2024-11-22T15:42:58Z" duration-ms="2910">
+      <class name="testCases.Step_IN_API">
+        <test-method signature="RegistrationSuccessful()[pri:0, instance:testCases.Step_IN_API@6caf0677]" started-at="2024-11-22T21:12:55Z" name="RegistrationSuccessful" finished-at="2024-11-22T21:12:58Z" duration-ms="2897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegistrationSuccessful -->
-      </class> <!-- testCases.ApiTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testCases.Step_IN_API -->
+    </test> <!-- TestCases -->
+  </suite> <!-- TestAutothon -->
 </testng-results>
