@@ -71,9 +71,14 @@ public class Keywords extends BrowserConfig {
 						} catch (Exception e2) {
 							try {
 								element = webDriver.findElement(By.className(actualLocator));
-
-							} catch (Exception e5) {
-								//logger.logFail("Failed since the locator given was not found");
+							} 
+							catch (Exception e5) {
+								
+								try {
+									element = webDriver.findElement(By.linkText(actualLocator));
+								} catch (Exception e6) {
+									//logger.logFail("Failed since the locator given was not found");
+								}
 							}
 						}
 					}
@@ -109,6 +114,10 @@ public class Keywords extends BrowserConfig {
 						return element;
 					else
 						element = webDriver.findElements(By.className(actualLocator));
+					if (element.size() != 0)
+						return element;
+					else
+						element = webDriver.findElements(By.tagName(actualLocator));
 					if (element.size() != 0)
 						return element;
 				} catch (Exception e) {
