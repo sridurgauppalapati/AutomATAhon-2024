@@ -6,7 +6,8 @@
 	<artifactId>testNgMavenExample</artifactId>
 	<version>1</version>
 	<properties>
-		<suiteFile>testngUI.xml</suiteFile>
+		<suiteFile>src/test/resources/testngUI.xml</suiteFile>
+		<suiteFile>src/test/resources/testngMobile.xml</suiteFile>
 	</properties>
 	<dependencies>
 
