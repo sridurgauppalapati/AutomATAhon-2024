@@ -1,83 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-22T14:40:39Z" name="TestAutothon" finished-at="2024-11-22T14:40:47Z" duration-ms="7653">
+  <suite started-at="2024-11-22T15:27:23Z" name="Default suite" finished-at="2024-11-22T15:27:26Z" duration-ms="2986">
     <groups>
     </groups>
-    <test started-at="2024-11-22T14:40:39Z" name="TestCases" finished-at="2024-11-22T14:40:47Z" duration-ms="7653">
-      <class name="testCases.Step_IN_UI">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.Step_IN_UI@7c137fd5]" started-at="2024-11-22T20:10:39Z" name="beforeTest" finished-at="2024-11-22T20:10:39Z" duration-ms="163" status="PASS">
+    <test started-at="2024-11-22T15:27:23Z" name="Default test" finished-at="2024-11-22T15:27:26Z" duration-ms="2986">
+      <class name="testCases.ApiTest">
+        <test-method signature="RegistrationSuccessful()[pri:0, instance:testCases.ApiTest@5cde6747]" started-at="2024-11-22T20:57:23Z" name="RegistrationSuccessful" finished-at="2024-11-22T20:57:26Z" duration-ms="2965" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="TC_UI_Launch_Youtube()[pri:0, instance:testCases.Step_IN_UI@7c137fd5]" started-at="2024-11-22T20:10:39Z" name="TC_UI_Launch_Youtube" finished-at="2024-11-22T20:10:45Z" duration-ms="5311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_UI_Launch_Youtube -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCases.Step_IN_UI@7c137fd5]" started-at="2024-11-22T20:10:39Z" name="beforeMethod" finished-at="2024-11-22T20:10:39Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testCases.Step_IN_UI.TC_UI_Launch_Youtube()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testCases.Step_IN_UI@7c137fd5]" started-at="2024-11-22T20:10:45Z" name="afterMethod" finished-at="2024-11-22T20:10:45Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_UI_Launch_Youtube status=SUCCESS method=Step_IN_UI.TC_UI_Launch_Youtube()[pri:0, instance:testCases.Step_IN_UI@7c137fd5] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testCases.Step_IN_UI.TC_UI_Launch_Youtube()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCases.Step_IN_UI@7c137fd5]" started-at="2024-11-22T20:10:45Z" name="beforeMethod" finished-at="2024-11-22T20:10:45Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testCases.Step_IN_UI.TC_UI_ClickIndia()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_UI_ClickIndia()[pri:0, instance:testCases.Step_IN_UI@7c137fd5]" started-at="2024-11-22T20:10:45Z" name="TC_UI_ClickIndia" finished-at="2024-11-22T20:10:46Z" duration-ms="1237" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_UI_ClickIndia -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testCases.Step_IN_UI@7c137fd5]" started-at="2024-11-22T20:10:46Z" name="afterMethod" finished-at="2024-11-22T20:10:46Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_UI_ClickIndia status=SUCCESS method=Step_IN_UI.TC_UI_ClickIndia()[pri:0, instance:testCases.Step_IN_UI@7c137fd5] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testCases.Step_IN_UI.TC_UI_ClickIndia()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testCases.Step_IN_UI@7c137fd5]" started-at="2024-11-22T20:10:46Z" name="afterTest" finished-at="2024-11-22T20:10:47Z" duration-ms="928" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- testCases.Step_IN_UI -->
-    </test> <!-- TestCases -->
-  </suite> <!-- TestAutothon -->
+        </test-method> <!-- RegistrationSuccessful -->
+      </class> <!-- testCases.ApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
