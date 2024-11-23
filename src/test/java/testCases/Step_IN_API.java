@@ -1,3 +1,8 @@
+package testCases;
+
+
+
+
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
@@ -83,3 +88,4 @@ public class Step_IN_API {
         return response.statusCode() == 200;
     }
 }
+

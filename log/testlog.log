@@ -580,3 +580,5 @@ Session ID: ca16e1e5377270ccec881af51306df3e
 2024-11-23 16:40:20,778 - AgilityLoyalty -INFO - Launch
 2024-11-23 16:40:23,644 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
 2024-11-23 16:40:29,930 - AgilityLoyalty -INFO - Given element to JS click is null. Verify the Locator given
+2024-11-23 16:41:01,481 - AgilityLoyalty -INFO - Launch
+2024-11-23 16:41:05,890 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner

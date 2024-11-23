@@ -42,22 +42,17 @@ public class LoginPage {
 		
 	}
 	
-//	public void create_Patrons() {
-//		try {
-//			actions.click(klocator.Home);
-//			actions.click(klocator.Patrons);
-//			actions.selectDropdownByLi(klocator.New_Patrons,"Staff");
-//			
-////			actions.click(klocator.add_lib);
-////			actions.setValue(klocator.branchname,"TestVerse");
-////			actions.setValue(klocator.branchcode, "GTR_HACK_"+"TV" );
-////			actions.click(klocator.library_submit);
-////			actions.wait(10);
-//		}catch(Exception e) {
-//			logger.logFail("Failed to login due to exception "+e.getMessage());
-//		}
-//		
-//	}
+	public void create_Patrons() {
+		try {
+			actions.click(klocator.Home);
+			actions.click(klocator.Patrons);
+			actions.selectDropdownByLi(klocator.New_Patrons,"Staff");
+			actions.wait(10);
+		}catch(Exception e) {
+			logger.logFail("Failed to login due to exception "+e.getMessage());
+		}
+		
+	}
 	
 
 }
