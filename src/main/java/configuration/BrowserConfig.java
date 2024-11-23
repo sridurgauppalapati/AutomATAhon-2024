@@ -57,8 +57,9 @@ public static String Mode = "UI";
 			System.out.println(Mode);
 			
 			if(Mode.equalsIgnoreCase("UI")) {
-				browserExecution("Chrome",URLKey);
+				browserExecution("chrome",URLKey);
 			}
+			
 			else if(Mode.equalsIgnoreCase("MOBILE")){
 				mobileExecution("Chrome",URLKey);
 			}

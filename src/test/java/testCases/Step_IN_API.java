@@ -1,106 +1,85 @@
-package testCases;
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.Base64;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
-import java.io.*;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import api.APICommon;
 
 public class Step_IN_API {
+              private static final String API_URL = "http://34.148.101.249:8080/api/v1/";
 
-	APICommon api = new APICommon();
+              // Replace with your Koha API URL
+    private static final String USERNAME = "Melinda.Bednar";
+    private static final String PASSWORD = "ul6lng7qVi";
 
-//	{"team":"team-name","video":"search-video-name","upcoming-videos":["A","B","C"]}
+    @Test
+    public static void main() {
+        try {
+            // Base64 encode the username and password
+            String credentials = USERNAME + ":" + PASSWORD;
+            String base64Credentials = Base64.getEncoder().encodeToString(credentials.getBytes());
 
-	@Test(priority = 0)
-	public void RegistrationSuccessful() throws IOException
-	{ 
-		//String jsonBody = "{\"name\": \"{{RandomName}}\", \"job\": \"Programmer\"}";
-//		api.API_Get("http://54.169.34.162:5252/video");
-		
-		String res = api.API_Get("https://fake-json-api.mock.beeceptor.com/users");
-		
-		System.out.println(res);
-		System.out.println("====");
-		
-        URL url = new URL("https://fake-json123.free.beeceptor.com");
+            // Step 1: Add Patron of type "Staff"
+            String patronId = addPatron(base64Credentials);
 
-        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-//        conn.setRequestMethod("GET");
-//        conn.connect();
-
-        //Getting the response code
-//        int responsecode = conn.getResponseCode();
-        
-//        System.out.println(responsecode);
-        
-        conn.setRequestMethod("POST");
-        conn.setRequestProperty("Content-Type", "application/json; utf-8");
-        conn.setRequestProperty("Accept", "application/json");
-        
-        conn.setDoOutput(true); // Enable sending request body
-        
-     // Define the POST body
-        String jsonBody = "{\"title\":\"foo\",\"body\":\"bar\",\"userId\":1}";
-        
-        HashMap data = new HashMap();
-        
-        data.put("title","foo");
-        data.put("body", "bar");
-        
-        ObjectMapper objectMapper = new ObjectMapper();
-        String map_json = objectMapper.writeValueAsString(data);
-        
-
-        // Write the body to the output stream
-        try (OutputStream os = conn.getOutputStream()) {
-        	
-            byte[] input = map_json.getBytes("utf-8");
-            os.write(input, 0, input.length);
+//            if (patronId != null) {
+//                // Step 2: Create password for the patron
+//                boolean passwordCreated = createPassword(patronId, "new_password123", base64Credentials);
+//                if (passwordCreated) {
+//                    System.out.println("Password created successfully for patron with ID " + patronId);
+//                } else {
+//                    System.out.println("Failed to create password for patron.");
+//                }
+//            } else {
+//                System.out.println("Failed to add patron.");
+//            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+    }
 
-        // Read the response code
-        int responseCode = conn.getResponseCode();
-        System.out.println("Response Code: " + responseCode);
-        
-		
-//		api.API_Post(null, 'https://fake-json123.free.beeceptor.com');
-		
-		System.out.println(res);
-		JSONArray allDataArray = new JSONArray();
-		
-		String[] sList = {"A","B","C"};
-		
-		String json = "{\"team\":\"team-name\","
-				+ "\"video\":\"search-video-name\","
-				+ "\"upcoming-videos\":[";
-		   //if List not empty
-		   if (!(sList.length ==0)) {
-		       //Loop index size()
-		       for(int index = 0; index < sList.length; index++) {
-		           try {
-		              json +="\""+ sList[index]+"\"";
-		              if(index!=sList.length-1) {
-		            	  json +=",";
-		              }else {
-		            	  json+="]}";
-		              }
-		           } catch (Exception e) {
-		               e.printStackTrace();
-		           }
-		       }
-		       System.out.println(json);
-		   } else {
-		       //Do something when sList is empty
-		   }
-	}
+    // Step 1: Add Patron of type "Staff"
+    public static String addPatron(String base64Credentials) {
+        String patronData = "{\"first_name\": \"John\", \"last_name\": \"Doe\", \"email\": \"johndoe@example.com\", \"type\": \"Staff\", \"library_id\": \"your_library_id\"}";
+
+        Response response = given()
+            .baseUri(API_URL)
+            .header("Authorization", "Basic " + base64Credentials) // Basic Auth header
+            .contentType("application/json")
+            .body(patronData)
+            .post();
+
+        // Debug output
+        System.out.println("Response Status Code: " + response.getStatusCode());
+        System.out.println("Response Body: " + response.getBody().asString());
+
+//        if (response.statusCode() == 201) {
+//            // Patron added successfully
+//            return response.jsonPath().getString("id"); // Assuming response contains the patron's ID
+//        } else {
+//            System.out.println("Error adding patron: " + response.jsonPath().getString("error"));
+            return null;
+//        }
+    }
+
+    // Step 2: Create Password for Patron
+    public static boolean createPassword(String patronId, String password, String base64Credentials) {
+        String passwordData = "{\"password\": \"" + password + "\"}";
+
+        Response response = given()
+            .baseUri(API_URL)
+            .header("Authorization", "Basic " + base64Credentials) // Basic Auth header
+            .contentType("application/json")
+            .body(passwordData)
+            .post("/staff/patrons/" + patronId + "/password");
+
+        // Debug output
+        System.out.println("Response Status Code: " + response.getStatusCode());
+        System.out.println("Response Body: " + response.getBody().asString());
+//
+        return response.statusCode() == 200;
+    }
 }

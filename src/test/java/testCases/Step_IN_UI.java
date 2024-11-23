@@ -10,7 +10,10 @@ import api.APICommon;
 import configuration.Global;
 import configuration.Keywords;
 import pages.CommonMethods;
+import pages.LoginPage;
 import utilities.UI_Locators;
+import utilities.Koha_locator;
+import utilities.Locators;
 
 public class Step_IN_UI extends Global {
 	// public BrowserConfig config = new BrowserConfig();
@@ -18,36 +21,25 @@ public class Step_IN_UI extends Global {
 	public Keywords actions = new Keywords();
 	public UI_Locators ulocator = new UI_Locators();
 	public APICommon api = new APICommon();
+	public LoginPage login = new LoginPage();
+	public Koha_locator klocator = new Koha_locator();
+	public Locators loc = new Locators();
 
 	@Test(priority = 0)
 	public void TC_UI_Launch_IndianExpress() {
-		common.Launch("UI", "https://indianexpress.com/");
+		common.Launch("UI", "http://34.148.101.249:8081/");
 		logger.logPass("Launch", "Step In Forum Launched");
+		login.Login("Melinda.Bednar", "ul6lng7qVi");
+		login.create_library();
+//		login.create_Patrons();
 	}
 
-	@Test(priority = 1)
-	public void TC_UI_ClickIndia() {
-		//actions.waitImplicit(null, 2);
-		
-		// Find the <ul> element
-        WebElement ulElement = actions.getWebElement(ulocator.NewsLink);
-
-        // Get all the <li> elements inside the <ul>
-        List<WebElement> liElements = actions.getWebElementList(ulocator.NewsLinkList);
-
-        // Select the specific element from the ArrayList based on your requirement
-        String targetElement = "India";
-        for (WebElement li : liElements) {
-            if (li.getText().equals(targetElement)) {
-                li.click();
-                break; // Exit the loop after clicking on the element
-            }
-        }
-		logger.logPass("Enter", "Step In Forum Entered");
-//		actions.waitImplicit(ulocator.step_in_channel, 5);
-//		actions.getWebElement(ulocator.step_in_channel).click();
-//		actions.waitImplicit(ulocator.Video, 5);
-	}
+//	@Test(priority = 1)
+//	public void TC_UI_CreateLibrary() {
+//		
+//		
+//	
+//	}
 
 //	@Test(priority = 2)
 //	public void TC_UI_VideoLink() {

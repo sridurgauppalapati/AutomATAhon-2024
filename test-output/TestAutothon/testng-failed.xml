@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [TestAutothon]">
+  <parameter name="env" value="UI"/>
   <test name="TestCases(failed)">
+    <parameter name="env" value="UI"/>
     <classes>
       <class name="testCases.Step_IN_UI">
         <methods>
-          <include name="TC_UI_GetVideoNameViaApi"/>
           <include name="beforeMethod"/>
-          <include name="TC_UI_Search_StepInForum"/>
           <include name="afterTest"/>
-          <include name="TC_UI_GetUpNextListAndPost"/>
-          <include name="TC_UI_VideoLink"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="TC_UI_SelectQuality"/>
+          <include name="TC_UI_Launch_IndianExpress"/>
         </methods>
       </class> <!-- testCases.Step_IN_UI -->
     </classes>

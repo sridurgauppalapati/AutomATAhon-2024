@@ -3,6 +3,9 @@ package utilities;
 public class Locators {
 
 	
-	public String userName = "//div[@id='username']";
-	public String password = "//div[@id='password']";
+	public String userName = "//*[@id='userid']";
+	public String password = "//*[@id='password']";
+	public String sumbit = "//*[@id='submit-button']";
+
+	
 }
