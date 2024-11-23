@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-TestAutothon" class="navigator-link ">
-                    <span>C:\automation\SampleProject\src\test\resources\testngAPI.xml</span>
+                    <span>C:\automation\SampleProject\src\test\resources\testngUI.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,12 @@
                     <div class="method-list-content passed suite-TestAutothon">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestAutothon" title="testCases.Step_IN_API" class="method navigator-link" hash-for-method="RegistrationSuccessful">RegistrationSuccessful</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestAutothon" title="testCases.Step_IN_UI" class="method navigator-link" hash-for-method="TC_UI_ClickIndia">TC_UI_ClickIndia</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAutothon" title="testCases.Step_IN_UI" class="method navigator-link" hash-for-method="TC_UI_Launch_IndianExpress">TC_UI_Launch_IndianExpress</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestAutothon -->
@@ -119,14 +124,21 @@
           <div class="suite-TestAutothon-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.Step_IN_API</span>
+              <span class="class-name">testCases.Step_IN_UI</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="RegistrationSuccessful">
-                  </a> <!-- RegistrationSuccessful -->
-                  <span class="method-name">RegistrationSuccessful</span>
+                  <a name="TC_UI_ClickIndia">
+                  </a> <!-- TC_UI_ClickIndia -->
+                  <span class="method-name">TC_UI_ClickIndia</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_UI_Launch_IndianExpress">
+                  </a> <!-- TC_UI_Launch_IndianExpress -->
+                  <span class="method-name">TC_UI_Launch_IndianExpress</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +146,7 @@
         </div> <!-- panel TestAutothon -->
         <div panel-name="test-xml-TestAutothon" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\automation\SampleProject\src\test\resources\testngAPI.xml</span>
+            <span class="header-content">C:\automation\SampleProject\src\test\resources\testngUI.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -142,8 +154,9 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;TestAutothon&quot;&gt;
   &lt;test name=&quot;TestCases&quot;&gt;
+    &lt;parameter name=&quot;env&quot; value=&quot;UI&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.Step_IN_API&quot;/&gt;
+      &lt;class name=&quot;testCases.Step_IN_UI&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestCases --&gt;
 &lt;/suite&gt; &lt;!-- TestAutothon --&gt;
@@ -183,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'RegistrationSuccessful')
-data.setCell(0, 2, 'testCases.Step_IN_API')
-data.setCell(0, 3, 2897);
+data.setCell(0, 1, 'TC_UI_Launch_IndianExpress')
+data.setCell(0, 2, 'testCases.Step_IN_UI')
+data.setCell(0, 3, 4687);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_UI_ClickIndia')
+data.setCell(1, 2, 'testCases.Step_IN_UI')
+data.setCell(1, 3, 1314);
 window.suiteTableData['TestAutothon']= { tableData: data, tableDiv: 'times-div-TestAutothon'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-TestAutothon">
               </div> <!-- times-div-TestAutothon -->
             </div> <!-- times-div -->
@@ -218,11 +235,39 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Step_IN_API</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">RegistrationSuccessful</span>
+              <div class="chronological-class-name">testCases.Step_IN_UI</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testCases.Step_IN_UI.TC_UI_Launch_IndianExpress())</span>
+                <span class="method-start">174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_UI_Launch_IndianExpress</span>
+                <span class="method-start">175 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_UI_Launch_IndianExpress status=SUCCESS method=Step_IN_UI.TC_UI_Launch_IndianExpr...)</span>
+                <span class="method-start">4865 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testCases.Step_IN_UI.TC_UI_ClickIndia())</span>
+                <span class="method-start">4867 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_UI_ClickIndia</span>
+                <span class="method-start">4868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_UI_ClickIndia status=SUCCESS method=Step_IN_UI.TC_UI_ClickIndia()[pri:0, instanc...)</span>
+                <span class="method-start">6184 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">6187 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,17 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-22T15:42:55Z" name="TestAutothon" finished-at="2024-11-22T15:42:58Z" duration-ms="2910">
+  <suite started-at="2024-11-23T01:34:49Z" name="TestAutothon" finished-at="2024-11-23T01:34:55Z" duration-ms="6370">
     <groups>
     </groups>
-    <test started-at="2024-11-22T15:42:55Z" name="TestCases" finished-at="2024-11-22T15:42:58Z" duration-ms="2910">
-      <class name="testCases.Step_IN_API">
-        <test-method signature="RegistrationSuccessful()[pri:0, instance:testCases.Step_IN_API@6caf0677]" started-at="2024-11-22T21:12:55Z" name="RegistrationSuccessful" finished-at="2024-11-22T21:12:58Z" duration-ms="2897" status="PASS">
+    <test started-at="2024-11-23T01:34:49Z" name="TestCases" finished-at="2024-11-23T01:34:55Z" duration-ms="6370">
+      <class name="testCases.Step_IN_UI">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.Step_IN_UI@221a3fa4]" started-at="2024-11-23T07:04:49Z" name="beforeTest" finished-at="2024-11-23T07:04:49Z" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegistrationSuccessful -->
-      </class> <!-- testCases.Step_IN_API -->
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCases.Step_IN_UI@221a3fa4]" started-at="2024-11-23T07:04:49Z" name="beforeMethod" finished-at="2024-11-23T07:04:49Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.Step_IN_UI.TC_UI_Launch_IndianExpress()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC_UI_Launch_IndianExpress()[pri:0, instance:testCases.Step_IN_UI@221a3fa4]" started-at="2024-11-23T07:04:49Z" name="TC_UI_Launch_IndianExpress" finished-at="2024-11-23T07:04:54Z" duration-ms="4687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_UI_Launch_IndianExpress -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testCases.Step_IN_UI@221a3fa4]" started-at="2024-11-23T07:04:54Z" name="afterMethod" finished-at="2024-11-23T07:04:54Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_UI_Launch_IndianExpress status=SUCCESS method=Step_IN_UI.TC_UI_Launch_IndianExpress()[pri:0, instance:testCases.Step_IN_UI@221a3fa4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.Step_IN_UI.TC_UI_Launch_IndianExpress()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCases.Step_IN_UI@221a3fa4]" started-at="2024-11-23T07:04:54Z" name="beforeMethod" finished-at="2024-11-23T07:04:54Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.Step_IN_UI.TC_UI_ClickIndia()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC_UI_ClickIndia()[pri:0, instance:testCases.Step_IN_UI@221a3fa4]" started-at="2024-11-23T07:04:54Z" name="TC_UI_ClickIndia" finished-at="2024-11-23T07:04:55Z" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_UI_ClickIndia -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testCases.Step_IN_UI@221a3fa4]" started-at="2024-11-23T07:04:55Z" name="afterMethod" finished-at="2024-11-23T07:04:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_UI_ClickIndia status=SUCCESS method=Step_IN_UI.TC_UI_ClickIndia()[pri:0, instance:testCases.Step_IN_UI@221a3fa4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.Step_IN_UI.TC_UI_ClickIndia()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testCases.Step_IN_UI@221a3fa4]" started-at="2024-11-23T07:04:55Z" name="afterTest" finished-at="2024-11-23T07:04:55Z" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testCases.Step_IN_UI -->
     </test> <!-- TestCases -->
   </suite> <!-- TestAutothon -->
 </testng-results>
