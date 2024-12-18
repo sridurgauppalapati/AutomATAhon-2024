@@ -21,6 +21,7 @@ import org.testng.Assert;
 
 import configuration.BrowserConfig;
 import configuration.Keywords;
+import configuration.ReadPropertiesFile;
 import io.appium.java_client.PerformsTouchActions;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidElement;
@@ -36,14 +37,17 @@ public class CommonMethods {
 	public Reporting logger = new Reporting();
 	public BrowserConfig config = new BrowserConfig();
 	public UI_Locators locator = new UI_Locators();
+	public ReadPropertiesFile propertyFile = new ReadPropertiesFile();
 	public static HashMap<String, String> imdbmap = new HashMap();
 
-	public void Launch(String browserName, String Url) {
+	public void Launch() {
+		System.out.println("browsername:"+propertyFile.readProperties("dataFile", "browserName"));
 		try {
 			if (config.webDriver == null)
-				config.Launch(browserName, Url);
+				
+				config.Launch(propertyFile.readProperties("dataFile", "browserName"), propertyFile.readProperties("dataFile", "url"));
 			else
-				actions.getURL(Url);
+				actions.getURL(propertyFile.readProperties("dataFile", "url"));
 			//logger.logPass("Launched", "N");
 		} catch (Exception e) {
 			System.out.println("Failed to Launch due to exception " + e.getMessage());

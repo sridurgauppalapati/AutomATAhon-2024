@@ -3,9 +3,8 @@ package utilities;
 public class Koha_locator {
 
 	public String admin = "//a[text()='Koha administration']";
-	public String Library = "//a[text()=' New library']";
-
-	public String add_lib = "//*[@id='newbranch']/text()";
+	public String Library = "//a[text()='Libraries']";
+	public String add_lib = "//a[text()=' New library']";
 	public String branchname = "//*[@id='branchname']";
 	public String branchcode = "//*[@id='branchcode']";
 	public String library_submit = "//*[@id='Aform']/fieldset[3]/input";

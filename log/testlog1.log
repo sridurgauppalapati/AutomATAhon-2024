@@ -582,3 +582,89 @@ Session ID: ca16e1e5377270ccec881af51306df3e
 2024-11-23 16:40:29,930 [main] INFO AgilityLoyalty - Given element to JS click is null. Verify the Locator given
 2024-11-23 16:41:01,481 [main] INFO AgilityLoyalty - Launch
 2024-11-23 16:41:05,890 [main] INFO AgilityLoyalty - Failed to login due to exception current thread is not owner
+2024-11-23 19:11:23,115 [main] INFO AgilityLoyalty - Launch
+2024-11-23 19:11:28,331 [main] INFO AgilityLoyalty - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-11-23 19:11:33,606 [main] INFO AgilityLoyalty - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-11-23 19:12:02,660 [main] INFO AgilityLoyalty - Launch
+2024-11-23 19:12:09,025 [main] INFO AgilityLoyalty - Failed to login due to exception current thread is not owner
+2024-11-23 19:12:21,159 [main] INFO AgilityLoyalty - Given element to JS click is null. Verify the Locator given
+2024-11-23 19:12:26,364 [main] INFO AgilityLoyalty - Given element to JS click is null. Verify the Locator given
+2024-11-23 19:12:31,566 [main] INFO AgilityLoyalty - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-11-23 19:12:36,760 [main] INFO AgilityLoyalty - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-11-23 19:12:42,167 [main] INFO AgilityLoyalty - Given element to JS click is null. Verify the Locator given
+2024-11-23 19:12:43,820 [main] INFO AgilityLoyalty - Failed to login due to exception element click intercepted: Element is not clickable at point (18, -70)
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '172.20.10.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32b0e62af579cf4b48e8a1761d01b7fd
+2024-12-10 12:00:25,925 [main] INFO AgilityLoyalty - Launch
+2024-12-10 12:00:28,931 [main] INFO AgilityLoyalty - Failed to login due to exception current thread is not owner
+2024-12-10 12:00:29,142 [main] INFO AgilityLoyalty - Login
+2024-12-10 12:01:16,219 [main] INFO AgilityLoyalty - Launch
+2024-12-10 12:01:18,241 [main] INFO AgilityLoyalty - Failed to login due to exception current thread is not owner
+2024-12-10 12:01:18,394 [main] INFO AgilityLoyalty - Login
+2024-12-10 12:02:22,084 [main] INFO AgilityLoyalty - Launch
+2024-12-10 12:02:24,159 [main] INFO AgilityLoyalty - Failed to login due to exception current thread is not owner
+2024-12-10 12:02:24,351 [main] INFO AgilityLoyalty - Login
+2024-12-10 12:02:31,213 [main] INFO AgilityLoyalty - Given element to JS click is null. Verify the Locator given
+2024-12-10 12:02:36,490 [main] INFO AgilityLoyalty - Given element to JS click is null. Verify the Locator given
+2024-12-10 12:02:41,734 [main] INFO AgilityLoyalty - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-10 12:02:46,998 [main] INFO AgilityLoyalty - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-10 12:02:52,221 [main] INFO AgilityLoyalty - Given element to JS click is null. Verify the Locator given
+2024-12-10 12:02:57,501 [main] INFO AgilityLoyalty - Failed to login due to exception element not interactable
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50525}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ae66406b97b83f665938b8804a5d3da
+2024-12-10 12:08:49,509 [main] INFO AgilityLoyalty - Launch
+2024-12-10 12:08:51,526 [main] INFO AgilityLoyalty - Failed to login due to exception current thread is not owner
+2024-12-10 12:08:51,761 [main] INFO AgilityLoyalty - Login
+2024-12-10 12:08:54,764 [main] INFO AgilityLoyalty - Given element to JS click is null. Verify the Locator given
+2024-12-10 12:08:59,970 [main] INFO AgilityLoyalty - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-10 12:09:05,202 [main] INFO AgilityLoyalty - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-10 12:09:10,394 [main] INFO AgilityLoyalty - Given element to JS click is null. Verify the Locator given
+2024-12-10 12:09:15,705 [main] INFO AgilityLoyalty - Failed to login due to exception element not interactable
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62038}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc5a1cc5ed1b51e0ca57a98da313aa1c
+2024-12-10 12:10:41,651 [main] INFO AgilityLoyalty - Launch
+2024-12-10 12:10:42,965 [main] INFO AgilityLoyalty - Failed to login due to exception current thread is not owner
+2024-12-10 12:10:43,111 [main] INFO AgilityLoyalty - Login
+2024-12-10 12:10:45,103 [main] INFO AgilityLoyalty - Given element to JS click is null. Verify the Locator given
+2024-12-10 12:10:50,363 [main] INFO AgilityLoyalty - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-10 12:10:55,555 [main] INFO AgilityLoyalty - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-10 12:11:00,776 [main] INFO AgilityLoyalty - Given element to JS click is null. Verify the Locator given
+2024-12-10 12:11:06,005 [main] INFO AgilityLoyalty - Failed to login due to exception element not interactable
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa17cb49198ff13b68dcc0d0534e8446
+2024-12-10 12:12:48,182 [main] INFO AgilityLoyalty - Launch
+2024-12-10 12:12:49,886 [main] INFO AgilityLoyalty - Failed to login due to exception current thread is not owner
+2024-12-10 12:12:50,082 [main] INFO AgilityLoyalty - Login
+2024-12-10 12:12:59,197 [main] INFO AgilityLoyalty - Failed to login due to exception element not interactable
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 753c4177944f1cc85ed1e8ed0356c29c
+2024-12-10 13:36:03,226 [main] INFO AgilityLoyalty - Launch
+2024-12-10 13:36:06,083 [main] INFO AgilityLoyalty - Failed to login due to exception current thread is not owner
+2024-12-10 13:36:06,253 [main] INFO AgilityLoyalty - Login
+2024-12-10 13:36:11,440 [main] INFO AgilityLoyalty - Failed to login due to exception element not interactable
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fcf7d593a947aa3bd305e93f1537fa3

@@ -54,7 +54,7 @@ public static String Mode = "UI";
 		try { 
 			startTime = System.currentTimeMillis();
 			Mode = Mode.toUpperCase();
-			System.out.println(Mode);
+			System.out.println("Mode:"+Mode);
 			
 			if(Mode.equalsIgnoreCase("UI")) {
 				browserExecution("chrome",URLKey);

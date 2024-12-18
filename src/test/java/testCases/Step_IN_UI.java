@@ -10,35 +10,35 @@ import api.APICommon;
 import configuration.Global;
 import configuration.Keywords;
 import pages.CommonMethods;
-import pages.LoginPage;
+import pages.Koha_start;
 import utilities.UI_Locators;
 import utilities.Koha_locator;
 import utilities.Locators;
 
 public class Step_IN_UI extends Global {
-	// public BrowserConfig config = new BrowserConfig();
 	public CommonMethods common = new CommonMethods();
 	public Keywords actions = new Keywords();
 	public UI_Locators ulocator = new UI_Locators();
 	public APICommon api = new APICommon();
-	public LoginPage login = new LoginPage();
+	public Koha_start kohaStart = new Koha_start();
 	public Koha_locator klocator = new Koha_locator();
 	public Locators loc = new Locators();
 
 	@Test(priority = 0)
-	public void TC_UI_Launch_IndianExpress() {
-		common.Launch("UI", "http://34.148.101.249:8081/");
-		logger.logPass("Launch", "Step In Forum Launched");
-		login.Login("Melinda.Bednar", "ul6lng7qVi");
-		
+	public void TC_KOHA() {
+		common.Launch();
+		logger.logPass("Launch", "successfully launched koha application login page");
+		kohaStart.Login();
+		logger.logPass("Login", "successfully login into koha application");
 	}
 
 	@Test(priority = 1)
 	public void TC_UI_CreateLibrary() {
-		login.create_library();
-	login.create_Patrons();
-		
-	
+//		kohaStart.create_library();
+	}
+	@Test(priority = 2)
+	public void createPatronWithAPI() {
+//		kohaStart.create_library();
 	}
 
 }

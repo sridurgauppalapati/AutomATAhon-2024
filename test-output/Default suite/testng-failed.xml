@@ -6,8 +6,8 @@
       <class name="testCases.Step_IN_UI">
         <methods>
           <include name="beforeMethod"/>
+          <include name="TC_KOHA"/>
           <include name="afterTest"/>
-          <include name="TC_UI_ClickIndia"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
         </methods>

@@ -39,6 +39,7 @@ public class APICommon {
 	private String API_LocalHost = "";
 	private String API_Port = "";
 
+	
 	public String getAccessToken() {
 		String accessToken = null;
 		try {
@@ -116,7 +117,6 @@ public class APICommon {
 	}
 
 	public String API_Post(File file, String Url) {
-		//Headers apiheader =  getHeaders();
 		Response response=null;
 		String sURL = refactorWithRandomizedValues(Url);
 		//String jsonBodyGiven = refactorWithRandomizedValues(jsonBody).trim();
