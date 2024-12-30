@@ -117,6 +117,7 @@ public static String Mode = "UI";
 					webDriver.manage().window().maximize();
 					new Keywords().getURL(URLKey);
 				} catch (Exception e) {
+					e.printStackTrace();
 					System.out.println("Exception while launching a ChromeDriver " + e.getMessage());
 				}
 				break;
@@ -242,7 +243,7 @@ public static String Mode = "UI";
 			//WebDriverManager.chromedriver().setup();
 			System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY, chromeDriverPath);
 			driver = new ChromeDriver();
-			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("Chrome Failed during driver initialization " + e.getMessage());

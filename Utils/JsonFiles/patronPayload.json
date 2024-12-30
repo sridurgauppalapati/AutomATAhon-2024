@@ -1,16 +1,16 @@
 {
-    "patron_id": 0,
-    "cardnumber": "STF123456",
-    "surname": "Smith",
-    "firstname": "John",
-    "category_id": "STF",
-    "library_id": "MAIN",
-    "userid": "john_smith",
-    "date_of_birth": "1980-01-01",
-    "email": "john.smith@example.com",
-    "phone": "123-456-7890",
-    "address": "123 Library Lane",
-    "city": "LibCity",
-    "state": "LibState",
-    "postal_code": "12345"
-  }
+  "patron_id": 8,
+  "cardnumber": "1234-5678-9102",
+  "surname": "Smith",
+  "firstname": "John",
+  "category_id": "123",
+  "library_id": "123",
+  "userid": "APIPatron",
+  "date_of_birth": "1980-01-01",
+  "email": "john.smith@example.com",
+  "phone": "123-456-7890",
+  "address": "123 Library Lane",
+  "city": "LibCity",
+  "state": "LibState",
+  "postal_code": "12345"
+}

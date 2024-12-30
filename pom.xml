@@ -17,6 +17,24 @@
     <artifactId>webdrivermanager</artifactId>
     <version>5.9.2</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20230227</version>
+</dependency>
+
+<dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>5.2.3</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>5.2.3</version>
+    </dependency>
+    
 <dependency>
     <groupId>software.amazon.awssdk</groupId>
     <artifactId>s3</artifactId>
@@ -109,6 +127,11 @@
 			<artifactId>rest-assured</artifactId>
 			<version>3.1.1</version>
 		</dependency>
+		  <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>json-schema-validator</artifactId>
+        <version>3.1.1</version>
+    </dependency>
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
@@ -123,7 +146,7 @@
 			<groupId>io.rest-assured</groupId>
 			<artifactId>json-schema-validator</artifactId>
 			<version>3.1.1</version>
-			<scope>test</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>io.rest-assured</groupId>

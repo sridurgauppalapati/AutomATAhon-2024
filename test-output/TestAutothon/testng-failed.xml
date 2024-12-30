@@ -8,10 +8,10 @@
       <class name="testCases.Step_IN_UI">
         <methods>
           <include name="beforeMethod"/>
+          <include name="TC_KOHA"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="TC_UI_Launch_IndianExpress"/>
         </methods>
       </class> <!-- testCases.Step_IN_UI -->
     </classes>

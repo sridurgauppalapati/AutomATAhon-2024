@@ -1,4 +1,4 @@
-package pages;
+package koha;
 
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
@@ -42,6 +42,7 @@ public class CommonMethods {
 
 	public void Launch() {
 		System.out.println("browsername:"+propertyFile.readProperties("dataFile", "browserName"));
+		System.out.println("url:"+propertyFile.readProperties("dataFile", "url"));
 		try {
 			if (config.webDriver == null)
 				

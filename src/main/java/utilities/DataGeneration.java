@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.Random;
 import api.DBConfiguration;
 import configuration.ReadPropertiesFile;
-import pages.CommonMethods;
+import koha.CommonMethods;
 
 public class DataGeneration{
 

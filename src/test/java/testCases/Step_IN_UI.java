@@ -1,6 +1,7 @@
 package testCases;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import org.openqa.selenium.Keys;
@@ -9,8 +10,10 @@ import org.testng.annotations.Test;
 import api.APICommon;
 import configuration.Global;
 import configuration.Keywords;
-import pages.CommonMethods;
-import pages.Koha_start;
+import koha.CommonMethods;
+import koha.Koha_start;
+import koha.PatronCreation;
+import koha.Validations;
 import utilities.UI_Locators;
 import utilities.Koha_locator;
 import utilities.Locators;
@@ -23,6 +26,7 @@ public class Step_IN_UI extends Global {
 	public Koha_start kohaStart = new Koha_start();
 	public Koha_locator klocator = new Koha_locator();
 	public Locators loc = new Locators();
+	public PatronCreation patronCreation = new PatronCreation();
 
 	@Test(priority = 0)
 	public void TC_KOHA() {
@@ -32,13 +36,22 @@ public class Step_IN_UI extends Global {
 		logger.logPass("Login", "successfully login into koha application");
 	}
 
-	@Test(priority = 1)
-	public void TC_UI_CreateLibrary() {
+//	@Test(priority = 1)
+//	public void TC_UI_CreateLibrary() {
 //		kohaStart.create_library();
-	}
-	@Test(priority = 2)
-	public void createPatronWithAPI() {
-//		kohaStart.create_library();
+//	}
+//	@Test(priority = 2)
+//	public void createPatron() throws IOException, InterruptedException {
+//		
+//		patronCreation.PatronCreationOnGenerationMode();
+////		Validations.OPACPatronValidation();
+//
+//	}
+	@Test(priority = 3)
+	public void createBook() throws IOException, InterruptedException {
+		
+		kohaStart.createBook();
+
 	}
 
 }

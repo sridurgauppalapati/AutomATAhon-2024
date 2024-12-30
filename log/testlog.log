@@ -668,3 +668,279 @@ System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.7', os.name: 'Windows 11', 
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 5fcf7d593a947aa3bd305e93f1537fa3
+2024-12-23 13:22:13,792 - AgilityLoyalty -INFO - Launch
+2024-12-23 13:22:18,967 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:22:24,185 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:22:29,441 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 13:22:29,601 - AgilityLoyalty -INFO - Login
+2024-12-23 13:26:33,918 - AgilityLoyalty -INFO - Launch
+2024-12-23 13:26:39,168 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:26:44,413 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:26:49,626 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 13:26:49,794 - AgilityLoyalty -INFO - Login
+2024-12-23 13:27:39,136 - AgilityLoyalty -INFO - Launch
+2024-12-23 13:27:44,461 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:27:49,636 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:27:54,876 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 13:27:55,061 - AgilityLoyalty -INFO - Login
+2024-12-23 13:28:01,628 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 13:28:06,840 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 13:32:25,662 - AgilityLoyalty -INFO - Launch
+2024-12-23 13:32:30,926 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:32:36,125 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:32:41,313 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 13:32:41,458 - AgilityLoyalty -INFO - Login
+2024-12-23 13:32:47,786 - AgilityLoyalty -INFO - Given element to JS click is null. Verify the Locator given
+2024-12-23 13:32:53,057 - AgilityLoyalty -INFO - Given element to JS click is null. Verify the Locator given
+2024-12-23 13:32:58,212 - AgilityLoyalty -INFO - Given element to JS click is null. Verify the Locator given
+2024-12-23 13:33:24,132 - AgilityLoyalty -INFO - Launch
+2024-12-23 13:33:29,352 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:33:34,541 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:33:39,845 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 13:33:40,103 - AgilityLoyalty -INFO - Login
+2024-12-23 13:33:46,366 - AgilityLoyalty -INFO - Given element to JS click is null. Verify the Locator given
+2024-12-23 13:33:51,636 - AgilityLoyalty -INFO - Given element to JS click is null. Verify the Locator given
+2024-12-23 13:33:56,988 - AgilityLoyalty -INFO - Given element to JS click is null. Verify the Locator given
+2024-12-23 13:34:02,617 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:34:07,999 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:34:13,315 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:34:18,653 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:34:24,005 - AgilityLoyalty -INFO - Given element to JS click is null. Verify the Locator given
+2024-12-23 13:34:29,338 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 13:42:22,124 - AgilityLoyalty -INFO - Launch
+2024-12-23 13:42:27,362 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:42:32,557 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:42:37,790 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 13:42:37,956 - AgilityLoyalty -INFO - Login
+2024-12-23 13:44:11,791 - AgilityLoyalty -INFO - Launch
+2024-12-23 13:44:17,027 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:44:22,290 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:44:24,861 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-23 13:44:25,052 - AgilityLoyalty -INFO - Login
+2024-12-23 13:56:46,418 - AgilityLoyalty -INFO - Launch
+2024-12-23 13:56:51,710 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:56:56,924 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 13:57:02,110 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 13:57:02,261 - AgilityLoyalty -INFO - Login
+2024-12-23 14:01:44,954 - AgilityLoyalty -INFO - Launch
+2024-12-23 14:01:50,213 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 14:01:55,410 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 14:02:00,628 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 14:02:00,795 - AgilityLoyalty -INFO - Login
+2024-12-23 14:02:27,929 - AgilityLoyalty -INFO - Launch
+2024-12-23 14:02:33,130 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 14:02:38,309 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 14:02:43,569 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 14:02:43,715 - AgilityLoyalty -INFO - Login
+2024-12-23 14:07:08,905 - AgilityLoyalty -INFO - Launch
+2024-12-23 14:07:19,111 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 14:07:29,317 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 14:07:39,613 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 14:07:39,814 - AgilityLoyalty -INFO - Login
+2024-12-23 14:10:53,662 - AgilityLoyalty -INFO - Launch
+2024-12-23 14:11:03,894 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 14:11:14,238 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 14:11:24,542 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 14:11:24,768 - AgilityLoyalty -INFO - Login
+2024-12-23 14:12:59,000 - AgilityLoyalty -INFO - Launch
+2024-12-23 14:13:09,273 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 14:13:19,575 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 14:13:29,896 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 14:13:30,158 - AgilityLoyalty -INFO - Login
+2024-12-23 14:15:04,246 - AgilityLoyalty -INFO - Launch
+2024-12-23 14:19:52,619 - AgilityLoyalty -INFO - Launch
+2024-12-23 14:20:02,937 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 14:20:13,169 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-23 14:20:23,392 - AgilityLoyalty -INFO - Failed to login due to exception Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-23 14:20:23,577 - AgilityLoyalty -INFO - Login
+2024-12-23 14:24:51,729 - AgilityLoyalty -INFO - Launch
+2024-12-23 14:24:54,059 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-23 14:24:54,242 - AgilityLoyalty -INFO - Login
+2024-12-23 14:26:18,563 - AgilityLoyalty -INFO - Launch
+2024-12-23 14:26:20,171 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-23 14:26:20,326 - AgilityLoyalty -INFO - Login
+2024-12-23 15:37:43,528 - AgilityLoyalty -INFO - Launch
+2024-12-23 15:37:46,111 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-23 15:37:46,283 - AgilityLoyalty -INFO - Login
+2024-12-27 14:00:45,535 - AgilityLoyalty -INFO - Launch
+2024-12-27 14:17:56,835 - AgilityLoyalty -INFO - Launch
+2024-12-27 14:17:57,839 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 14:17:57,965 - AgilityLoyalty -INFO - Login
+2024-12-27 14:43:48,487 - AgilityLoyalty -INFO - Launch
+2024-12-27 14:43:49,626 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 14:43:49,779 - AgilityLoyalty -INFO - Login
+2024-12-27 14:44:53,898 - AgilityLoyalty -INFO - Launch
+2024-12-27 14:44:55,443 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 14:44:55,621 - AgilityLoyalty -INFO - Login
+2024-12-27 14:45:05,838 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55318}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a14fc14098f6c8e76a40e71de33d28cf
+2024-12-27 14:46:35,457 - AgilityLoyalty -INFO - Launch
+2024-12-27 14:46:36,707 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 14:46:36,833 - AgilityLoyalty -INFO - Login
+2024-12-27 14:46:47,045 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20af5c465cda1a1a6b35c45ed9a180e2
+2024-12-27 14:51:29,302 - AgilityLoyalty -INFO - Launch
+2024-12-27 14:51:30,299 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 14:51:30,416 - AgilityLoyalty -INFO - Login
+2024-12-27 14:51:43,141 - AgilityLoyalty -INFO - Failed to create book due to exception: Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-27 14:54:11,593 - AgilityLoyalty -INFO - Launch
+2024-12-27 14:54:12,682 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 14:54:12,816 - AgilityLoyalty -INFO - Login
+2024-12-27 14:54:16,767 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 14:54:19,626 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 14:54:50,140 - AgilityLoyalty -INFO - Failed to create book due to exception: Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-27 14:56:21,239 - AgilityLoyalty -INFO - Launch
+2024-12-27 14:56:22,239 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 14:56:22,371 - AgilityLoyalty -INFO - Login
+2024-12-27 14:56:35,678 - AgilityLoyalty -INFO - Failed to set value due to exception Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "locator" is null
+2024-12-27 14:56:45,940 - AgilityLoyalty -INFO - Failed to create book due to exception: Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-27 14:58:01,693 - AgilityLoyalty -INFO - Launch
+2024-12-27 14:58:02,669 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 14:58:02,817 - AgilityLoyalty -INFO - Login
+2024-12-27 14:58:06,475 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 14:58:09,183 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:00:06,852 - AgilityLoyalty -INFO - Launch
+2024-12-27 15:00:07,898 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 15:00:08,031 - AgilityLoyalty -INFO - Login
+2024-12-27 15:00:12,012 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:00:14,659 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:00:45,154 - AgilityLoyalty -INFO - Failed to create book due to exception: Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-27 15:02:56,549 - AgilityLoyalty -INFO - Launch
+2024-12-27 15:02:57,550 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 15:02:57,689 - AgilityLoyalty -INFO - Login
+2024-12-27 15:03:01,524 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:03:04,207 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:03:34,774 - AgilityLoyalty -INFO - Failed to create book due to exception: Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-27 15:07:30,691 - AgilityLoyalty -INFO - Launch
+2024-12-27 15:07:31,879 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 15:07:32,005 - AgilityLoyalty -INFO - Login
+2024-12-27 15:07:36,519 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:07:39,315 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:08:09,917 - AgilityLoyalty -INFO - Failed to create book due to exception: Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-27 15:11:03,296 - AgilityLoyalty -INFO - Launch
+2024-12-27 15:11:04,281 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 15:11:04,425 - AgilityLoyalty -INFO - Login
+2024-12-27 15:11:08,042 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:11:10,952 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:11:41,443 - AgilityLoyalty -INFO - Failed to create book due to exception: Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-27 15:12:35,762 - AgilityLoyalty -INFO - Launch
+2024-12-27 15:12:37,100 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 15:12:37,238 - AgilityLoyalty -INFO - Login
+2024-12-27 15:12:40,821 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:12:43,587 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:19:45,992 - AgilityLoyalty -INFO - Launch
+2024-12-27 15:19:47,240 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 15:19:47,360 - AgilityLoyalty -INFO - Login
+2024-12-27 15:19:50,845 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:19:53,694 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:20:04,052 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 52065974fa076aead8c3b06665dd12d5
+2024-12-27 15:22:00,685 - AgilityLoyalty -INFO - Launch
+2024-12-27 15:22:01,748 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 15:22:01,884 - AgilityLoyalty -INFO - Login
+2024-12-27 15:22:05,306 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:22:08,070 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:22:18,406 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3f197044cb03c760e9a85eae5a5c45a
+2024-12-27 15:29:04,355 - AgilityLoyalty -INFO - Launch
+2024-12-27 15:29:05,620 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 15:29:05,770 - AgilityLoyalty -INFO - Login
+2024-12-27 15:29:09,797 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:29:12,783 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:30:30,554 - AgilityLoyalty -INFO - Launch
+2024-12-27 15:30:31,695 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 15:30:31,834 - AgilityLoyalty -INFO - Login
+2024-12-27 15:30:35,455 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 15:30:38,038 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 20:59:52,040 - AgilityLoyalty -INFO - Launch
+2024-12-27 20:59:54,490 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 20:59:54,642 - AgilityLoyalty -INFO - Login
+2024-12-27 21:03:10,168 - AgilityLoyalty -INFO - Launch
+2024-12-27 21:03:11,680 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 21:03:11,832 - AgilityLoyalty -INFO - Login
+2024-12-27 21:03:19,415 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 21:03:23,769 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 21:04:34,856 - AgilityLoyalty -INFO - Launch
+2024-12-27 21:04:36,281 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-27 21:04:36,435 - AgilityLoyalty -INFO - Login
+2024-12-27 21:04:41,040 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-27 21:04:44,346 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 17:53:23,422 - AgilityLoyalty -INFO - Launch
+2024-12-30 17:53:24,694 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-30 17:53:24,852 - AgilityLoyalty -INFO - Login
+2024-12-30 17:53:30,149 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 17:53:32,480 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 17:58:26,446 - AgilityLoyalty -INFO - Launch
+2024-12-30 17:58:27,683 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-30 17:58:27,827 - AgilityLoyalty -INFO - Login
+2024-12-30 17:58:32,703 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 17:58:35,187 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 18:03:55,786 - AgilityLoyalty -INFO - Launch
+2024-12-30 18:03:56,908 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-30 18:03:57,050 - AgilityLoyalty -INFO - Login
+2024-12-30 18:04:01,087 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 18:04:03,515 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 18:26:11,461 - AgilityLoyalty -INFO - Launch
+2024-12-30 18:26:12,934 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-30 18:26:13,077 - AgilityLoyalty -INFO - Login
+2024-12-30 18:26:18,305 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 18:26:21,440 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 18:30:03,206 - AgilityLoyalty -INFO - Launch
+2024-12-30 18:30:04,626 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-30 18:30:04,820 - AgilityLoyalty -INFO - Login
+2024-12-30 18:30:09,579 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 18:30:12,120 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 18:32:20,631 - AgilityLoyalty -INFO - Launch
+2024-12-30 18:32:22,069 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-30 18:32:22,209 - AgilityLoyalty -INFO - Login
+2024-12-30 18:32:27,172 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 18:32:30,062 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 18:32:34,021 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-30 18:32:34,670 - AgilityLoyalty -INFO - Failed to check visibility of element due to exception: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13a3dbf578d8abda1608820b857a4e59
+*** Element info: {Using=css selector, value=//*[@id ='check_errors']}
+2024-12-30 18:32:44,904 - AgilityLoyalty -INFO - Failed to get text due to exception: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
+2024-12-30 18:32:45,071 - AgilityLoyalty -INFO - Validation failed. Expected: Expected Book Title, Found: null
+2024-12-30 18:36:48,272 - AgilityLoyalty -INFO - Launch
+2024-12-30 18:37:06,830 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-30 18:37:22,235 - AgilityLoyalty -INFO - Login
+2024-12-30 18:37:37,027 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 18:37:49,157 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-30 18:38:14,421 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-30 18:39:07,499 - AgilityLoyalty -INFO - Failed to check visibility of element due to exception: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64940}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d07e708e01c5855a03ffae49d74f70a6
+*** Element info: {Using=css selector, value=//*[@id ='check_errors']}

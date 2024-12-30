@@ -6,15 +6,18 @@ import java.awt.event.KeyEvent;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.NoSuchElementException;
 import org.testng.Assert;
 import org.json.simple.JSONArray;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchWindowException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -54,11 +57,12 @@ public class Keywords extends BrowserConfig {
 	 *This method gives WebElement of input locator.
 	 */
 	public WebElement getWebElement(String sLocator) {
+		System.out.println("Printing locator " + sLocator);
 		String actualLocator = sLocator;
 		WebElement element = null;
 		try {
-			if (actualLocator.startsWith("//")) {
-				element = webDriver.findElement(By.xpath(actualLocator));
+			if (actualLocator.contains("//") || actualLocator.startsWith("(")) {
+	            element = webDriver.findElement(By.xpath(actualLocator));
 			} else {
 				try {
 					element = webDriver.findElement(By.id(actualLocator));
@@ -198,6 +202,7 @@ public class Keywords extends BrowserConfig {
 	}
 
 	public void getURL(String url) {
+		System.out.println(url);
 		webDriver.get(url);
 	}
 
@@ -266,6 +271,24 @@ public class Keywords extends BrowserConfig {
 			logger.logFail("Failed to select Dropdown due to exception " + e.getMessage());
 		}
 	}
+	public String getText(String elementString) {
+	    try {
+	    	WebElement element = getWebElement(elementString);
+	        // Ensure the element is displayed before attempting to get its text
+	        if (element.isDisplayed()) {
+	            String text = element.getText();
+	            logger.logInfo("Successfully retrieved text: " + text);
+	            return text;
+	        } else {
+	            logger.logInfo("Element is not displayed, unable to retrieve text.");
+	            return null;
+	        }
+	    } catch (Exception e) {
+	        logger.logFail("Failed to get text due to exception: " + e.getMessage());
+	        return null;
+	    }
+	}
+
 
 	public void waitForPageToLoad(int timeInSec) {
 		try {
@@ -693,7 +716,21 @@ public class Keywords extends BrowserConfig {
 		sel.selectByVisibleText(VisibleText);
 
 	}
-
+	public boolean isElementVisible(String elementLocator) {
+	    try {
+	       
+	        WebElement element = webDriver.findElement(By.cssSelector(elementLocator));
+	        boolean isVisible = element.isDisplayed();
+	        logger.logInfo("Element is visible: " + elementLocator);
+	        return isVisible;
+	    } catch (NoSuchElementException e) {
+	        logger.logInfo("Element not found: " + elementLocator);
+	        return false;
+	    } catch (Exception e) {
+	        logger.logFail("Failed to check visibility of element due to exception: " + e.getMessage());
+	        return false;
+	    }
+	}
 	public void assertTrue(boolean condition, String assertStatement, String Screenshot) {
 		if(condition) {
 			logger.logPass("Assert Passed for '"+assertStatement+"'", Screenshot);
@@ -737,9 +774,61 @@ public class Keywords extends BrowserConfig {
 			logger.logFail("Failed to switch due to exception "+e.getMessage());
 		}
 	}
+	
+	public void switchToDefaultWindow() throws InterruptedException {
+		String defaultWindowHandle = webDriver.getWindowHandle(); 
+		switchToWindow(defaultWindowHandle);
+		Thread.sleep(1000); 
+//        try {
+//            // Wait until only the default window is available
+//            while (webDriver.getWindowHandles().size() > 1) {
+//                Thread.sleep(1000); // Small delay to allow pop-up to close
+//            }
+//            // Switch back to the default window
+//            switchToWindow(defaultWindowHandle);
+//            webDriver.switchTo().window(defaultWindowHandle);
+//        } catch (NoSuchWindowException e) {
+//            System.out.println("Default window not found: " + e.getMessage());
+//        } catch (InterruptedException e) {
+//            Thread.currentThread().interrupt(); // Restore interrupt status
+//            System.out.println("Interrupted while waiting for pop-up to close: " + e.getMessage());
+//        }
+    }
 
 	public Set<String> getWindowHandles() {
 		return webDriver.getWindowHandles();
+	}
+	
+	public List<WebElement> getMissingFields(String missingFieldsLocator) {
+	    try {
+	        
+	        return webDriver.findElements(By.cssSelector(missingFieldsLocator));
+	    } catch (Exception e) {
+	        logger.logFail("Failed to get missing fields due to exception: " + e.getMessage());
+	        return Collections.emptyList();
+	    }
+	}
+	public void selectByVisibleText(WebElement dropdown, String visibleText) {
+	    try {
+	        Select select = new Select(dropdown);
+	        select.selectByVisibleText(visibleText);
+	        logger.logInfo("Selected option by visible text: " + visibleText);
+	    } catch (Exception e) {
+	        logger.logFail("Failed to select option by visible text due to exception: " + e.getMessage());
+	    }
+	}
+
+	public WebElement findElementByText(String text) {
+	    try {
+	       
+	        return webDriver.findElement(By.xpath("//*[contains(text(),'" + text + "')]"));
+	    } catch (NoSuchElementException e) {
+	        logger.logFail("Element with text not found: " + text);
+	        return null;
+	    } catch (Exception e) {
+	        logger.logFail("Failed to find element by text due to exception: " + e.getMessage());
+	        return null;
+	    }
 	}
 
 	public void setValue(String sLocator, String sValue) {
@@ -749,6 +838,25 @@ public class Keywords extends BrowserConfig {
 		}catch(Exception e) {
 			logger.logFail("Failed to set value due to exception "+e.getMessage());
 		}
+	}
+	public void switchToFrame(String frameLocator) {
+	    try {
+	       
+	        WebElement frameElement = webDriver.findElement(By.cssSelector(frameLocator));
+	        webDriver.switchTo().frame(frameElement);
+	        logger.logInfo("Switched to frame: " + frameLocator);
+	    } catch (Exception e) {
+	        logger.logFail("Failed to switch to frame due to exception: " + e.getMessage());
+	    }
+	}
+	public void switchToDefaultContent() {
+	    try {
+	      
+	    	webDriver.switchTo().defaultContent();
+	        logger.logInfo("Switched back to default content.");
+	    } catch (Exception e) {
+	        logger.logFail("Failed to switch to default content due to exception: " + e.getMessage());
+	    }
 	}
 
 	public String getWindowHandle() {
@@ -834,4 +942,5 @@ public class Keywords extends BrowserConfig {
 		}
 		return json;
 	}
+	
 }
