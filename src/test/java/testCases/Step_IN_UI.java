@@ -1,7 +1,6 @@
 package testCases;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import org.openqa.selenium.Keys;
@@ -36,22 +35,48 @@ public class Step_IN_UI extends Global {
 		logger.logPass("Login", "successfully login into koha application");
 	}
 
-//	@Test(priority = 1)
-//	public void TC_UI_CreateLibrary() {
-//		kohaStart.create_library();
-//	}
-//	@Test(priority = 2)
-//	public void createPatron() throws IOException, InterruptedException {
-//		
-//		patronCreation.PatronCreationOnGenerationMode();
-////		Validations.OPACPatronValidation();
-//
-//	}
+	@Test(priority = 1)
+	public void TC_UI_CreateLibrary() {
+		kohaStart.create_library();
+	}
+	@Test(priority = 2)
+	public void createPatron() throws IOException, InterruptedException {
+		
+		patronCreation.PatronCreationOnGenerationMode();
+//		Validations.OPACPatronValidation();
+
+	}
 	@Test(priority = 3)
 	public void createBook() throws IOException, InterruptedException {
 		
 		kohaStart.createBook();
 
 	}
+	
+	@Test(priority = 4)
+	public void addItems() throws Exception {
+		
+		kohaStart.addItemsToBook();
 
+	}
+	@Test(priority = 5)
+	public void BookToCart() throws Exception {
+		
+		kohaStart.addBookToCart();
+
+	}
+	@Test(priority = 6)
+	public void checkout() throws Exception {
+		
+		kohaStart.CheckoutBook();
+
+	}
+	@Test(priority = 7)
+	public void checkIn() throws Exception {
+		
+		kohaStart.submitOrCheckInBook();
+
+	}
+	
+	
 }

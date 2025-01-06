@@ -5,13 +5,19 @@ import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.NoSuchElementException;
+import java.util.Random;
+
 import org.testng.Assert;
 import org.json.simple.JSONArray;
 import org.openqa.selenium.By;
@@ -169,6 +175,32 @@ public class Keywords extends BrowserConfig {
 		return element;
 	}
 
+	public void selectDropdownByVisibleText(WebElement dropdownElement, String visibleText) {
+        try {
+            Select dropdown = new Select(dropdownElement);
+            dropdown.selectByVisibleText(visibleText);
+            System.out.println("Selected option: " + visibleText);
+        } catch (Exception e) {
+            System.err.println("Failed to select the option: " + visibleText);
+            e.printStackTrace();
+        }
+    }
+	public static String generateRandomDate(int daysRange) {
+        // Get the current date
+        LocalDate today = LocalDate.now();
+
+        // Generate a random number of days within the range
+        Random random = new Random();
+        int randomDays = random.nextInt(daysRange + 1); // Range: 0 to daysRange
+
+        // Subtract the random number of days from today to get a random past date
+        LocalDate randomDate = today.minusDays(randomDays);
+
+        // Format the date in dd/MM/yyyy format
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        return randomDate.format(formatter);
+    }
+
 	public WebElement getWebElementWithoutExcel(String actualLocator) {
 		WebElement element = null;
 		try {
@@ -216,61 +248,7 @@ public class Keywords extends BrowserConfig {
 		actualLocator.click();
 	}
 
-	public void selectDropdownByLi(String sLocator, String Data) {
-		try {
-			WebElement Dd_locator = getWebElement(sLocator);
-			String getId = Dd_locator.getAttribute("id").toString();
-			WebElement Field_locator = getWebElementWithoutExcel("[aria-owns*='" + getId + "']");
-			WebElement Field_locator_ToScroll = getWebElementWithoutExcel(
-					"//*[contains(@aria-owns,'" + getId + "')]//ancestor::div[@class='row']");
-			String locatorAttributeRole = Dd_locator.getAttribute("role");
-			if (locatorAttributeRole.contains("listbox")) {
-				jsScrollToElement(Field_locator_ToScroll);//scrollToView(Field_locator_ToScroll);
-				scroll(0, 50);
-				Field_locator.click();
-				Thread.sleep(1000);
-				WebElement inputField_locator = getWebElementWithoutExcel("//div[@class='k-animation-container']//input[@aria-owns='"+getId+"']");
-				if(inputField_locator!=null) {
-					inputField_locator.sendKeys(Data);
-					WebElement inputField_search = getWebElementWithoutExcel("//div[@class='k-animation-container']//input[@aria-owns='"+getId+"']//following-sibling::span[text()='select']");
-					inputField_search.click();
-					Thread.sleep(1000);
-					Robot robot = new Robot();
-					robot.keyPress(KeyEvent.VK_DOWN);
-					robot.keyRelease(KeyEvent.VK_DOWN);
-					robot.keyPress(KeyEvent.VK_ENTER);
-					robot.keyRelease(KeyEvent.VK_ENTER);
-				}else {
-					List<WebElement> liList = Dd_locator.findElements(By.tagName("li"));
-					for (WebElement li : liList) {
-						if (li.getText().equals(Data)) {
-							//jsScrollToElement(li);
-							Thread.sleep(1000);
-							//javaScriptClick(li);
-							li.click();
-							Thread.sleep(1000);
-							waitForPageToLoad(60);
-							break;
-						}
-					}
-				}
-				try {
-					String verifyDD = getWebElementWithoutExcel("[aria-owns*='" + getId + "'] span[class='k-input']")
-							.getText();
-					if (!verifyDD.contains(Data.trim())) {
-						logger.logWarning("The data " + Data
-								+ " provided in the data sheet is not available in application");
-						// Assert.fail();
-					}
-				}catch(Exception e) {
-					//Empty catch block to handle different dropdown
-				}
-
-			}
-		} catch (Exception e) {
-			logger.logFail("Failed to select Dropdown due to exception " + e.getMessage());
-		}
-	}
+	
 	public String getText(String elementString) {
 	    try {
 	    	WebElement element = getWebElement(elementString);
@@ -289,7 +267,16 @@ public class Keywords extends BrowserConfig {
 	    }
 	}
 
-
+	public boolean waitForElementToBeVisible(WebElement locator, int timeoutInSeconds) {
+        try {
+            WebDriverWait wait = new WebDriverWait(webDriver, timeoutInSeconds);
+            wait.until(ExpectedConditions.visibilityOf(locator));
+            return true;
+        } catch (Exception e) {
+            System.err.println("Element not visible within the timeout: " + e.getMessage());
+            return false;
+        }
+    }
 	public void waitForPageToLoad(int timeInSec) {
 		try {
 			int iterator = 0;
@@ -721,16 +708,23 @@ public class Keywords extends BrowserConfig {
 	       
 	        WebElement element = webDriver.findElement(By.cssSelector(elementLocator));
 	        boolean isVisible = element.isDisplayed();
-	        logger.logInfo("Element is visible: " + elementLocator);
+//	        logger.logInfo("Element is visible: " + elementLocator);
 	        return isVisible;
 	    } catch (NoSuchElementException e) {
-	        logger.logInfo("Element not found: " + elementLocator);
+//	        logger.logInfo("Element not found: " + elementLocator);
 	        return false;
 	    } catch (Exception e) {
-	        logger.logFail("Failed to check visibility of element due to exception: " + e.getMessage());
+//	        logger.logFail("Failed to check visibility of element due to exception: " + e.getMessage());
 	        return false;
 	    }
 	}
+	 public void ensureCheckboxChecked(String checkbox) {
+		 WebElement actualLocator = getWebElement(checkbox);
+	        if (!actualLocator.isSelected()) {
+	        	actualLocator.click();
+	        	logger.logPass("Checkbox was unchecked, now it is checked.","blabla");
+	        } 
+	    }
 	public void assertTrue(boolean condition, String assertStatement, String Screenshot) {
 		if(condition) {
 			logger.logPass("Assert Passed for '"+assertStatement+"'", Screenshot);
@@ -801,27 +795,19 @@ public class Keywords extends BrowserConfig {
 	
 	public List<WebElement> getMissingFields(String missingFieldsLocator) {
 	    try {
-	        
-	        return webDriver.findElements(By.cssSelector(missingFieldsLocator));
+	        return webDriver.findElements(By.cssSelector(missingFieldsLocator + " ul > li"));
 	    } catch (Exception e) {
 	        logger.logFail("Failed to get missing fields due to exception: " + e.getMessage());
 	        return Collections.emptyList();
 	    }
 	}
-	public void selectByVisibleText(WebElement dropdown, String visibleText) {
-	    try {
-	        Select select = new Select(dropdown);
-	        select.selectByVisibleText(visibleText);
-	        logger.logInfo("Selected option by visible text: " + visibleText);
-	    } catch (Exception e) {
-	        logger.logFail("Failed to select option by visible text due to exception: " + e.getMessage());
-	    }
-	}
+
+	
 
 	public WebElement findElementByText(String text) {
 	    try {
-	       
-	        return webDriver.findElement(By.xpath("//*[contains(text(),'" + text + "')]"));
+	        String sanitizedText = text.replace("\n", " ").trim(); // Replace line breaks
+	        return webDriver.findElement(By.xpath("//*[contains(normalize-space(text()),'" + sanitizedText + "')]"));
 	    } catch (NoSuchElementException e) {
 	        logger.logFail("Element with text not found: " + text);
 	        return null;
@@ -830,6 +816,7 @@ public class Keywords extends BrowserConfig {
 	        return null;
 	    }
 	}
+
 
 	public void setValue(String sLocator, String sValue) {
 		try {
@@ -882,6 +869,41 @@ public class Keywords extends BrowserConfig {
 		}
 		return arrayString;
 	}
+	
+	public void selectMissingFieldLinks(String selection,int index) {
+		try {
+	        // Construct XPath for the specific <li> element based on the index
+	        String liXpath = selection + "//ul[1]/li[" + index + "]//a";
+
+	        // Find the <a> element using the constructed XPath
+	        WebElement element = webDriver.findElement(By.xpath(liXpath));
+
+	        // Click the found <a> element
+	        click(element);
+
+	        logger.logPass("Successfully clicked on the missing field link.","blabla");
+	    } catch (Exception e) {
+	        logger.logFail("Failed to get missing fields due to exception: " + e.getMessage());
+	    }
+	}
+	public String extractFieldName(String missingField) {
+	    // Updated regex to match text between "subfield" and "in tab"
+	    String regex = "subfield\\s+\\w+\\s+(.*?)\\s+in\\s+tab\\s+\\d+";
+	    Pattern pattern = Pattern.compile(regex);
+	    Matcher matcher = pattern.matcher(missingField);
+
+	    if (matcher.find()) {
+	        // Group 1 contains the desired text
+	        String extractedText = matcher.group(1).trim();
+	        System.out.println("Extracted Text: " + extractedText);
+	        return extractedText;
+	    } else {
+	        System.out.println("No match found.");
+	        return null;
+	    }
+	}
+
+		
 
 	public void select(String selection) {
 		waitImplicit(null, 1);
@@ -942,5 +964,30 @@ public class Keywords extends BrowserConfig {
 		}
 		return json;
 	}
+	public static void setHiddenDate(String labelXPath, String inputXPath, String desiredDate) throws Exception {
+        try {
+            // Click on the label or trigger to make the input visible
+            WebElement dateLabel = webDriver.findElement(By.xpath(labelXPath));
+            dateLabel.click();
+
+            // Wait for the input field to appear in the DOM
+            WebDriverWait wait = new WebDriverWait(webDriver, 10);
+            WebElement dateInput = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(inputXPath)));
+
+            // Use JavaScript to set the value in the hidden input field
+            JavascriptExecutor js = (JavascriptExecutor) webDriver;
+            js.executeScript("arguments[0].setAttribute('value', arguments[1]);", dateInput, desiredDate);
+
+            // Optionally trigger the input's onchange event
+            js.executeScript("arguments[0].dispatchEvent(new Event('change', { bubbles: true }));", dateInput);
+
+            System.out.println("Date set successfully: " + desiredDate);
+
+        } catch (Exception e) {
+            throw new Exception("Failed to set the date. Reason: " + e.getMessage(), e);
+        }
+    }
+
+
 	
 }

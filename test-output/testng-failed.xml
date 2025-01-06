@@ -6,8 +6,8 @@
       <class name="testCases.Step_IN_UI">
         <methods>
           <include name="beforeMethod"/>
+          <include name="addItems"/>
           <include name="afterTest"/>
-          <include name="createBook"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
         </methods>

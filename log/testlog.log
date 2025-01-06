@@ -944,3 +944,508 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64940}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: d07e708e01c5855a03ffae49d74f70a6
 *** Element info: {Using=css selector, value=//*[@id ='check_errors']}
+2024-12-31 07:22:56,703 - AgilityLoyalty -INFO - Launch
+2024-12-31 07:23:19,491 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 07:23:38,699 - AgilityLoyalty -INFO - Login
+2024-12-31 07:23:58,856 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 07:24:13,883 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 07:24:48,195 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 07:25:56,327 - AgilityLoyalty -INFO - Failed to check visibility of element due to exception: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 448d21fbaba44d4d8e70aa4b4fda915a
+*** Element info: {Using=css selector, value=//*[@id ='check_errors']}
+2024-12-31 07:27:47,589 - AgilityLoyalty -INFO - Launch
+2024-12-31 07:27:50,688 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 07:27:50,921 - AgilityLoyalty -INFO - Login
+2024-12-31 07:28:01,045 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 07:28:04,940 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 07:28:13,143 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 07:28:13,863 - AgilityLoyalty -ERROR - Failed due log in report due to exception Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "utilities.Reporting.test" is null
+2024-12-31 07:28:14,192 - AgilityLoyalty -INFO - Failed to get missing fields due to exception: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 199fd5f814365420576eab71b1c8958c
+*** Element info: {Using=css selector, value=//div[@id='form-errors']//ul//li//strong}
+2024-12-31 07:28:24,582 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 199fd5f814365420576eab71b1c8958c
+2024-12-31 07:31:28,862 - AgilityLoyalty -INFO - Launch
+2024-12-31 07:31:31,210 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 07:31:31,404 - AgilityLoyalty -INFO - Login
+2024-12-31 07:31:39,412 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 07:31:42,810 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 07:31:50,620 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 07:31:51,689 - AgilityLoyalty -INFO - Failed to get missing fields due to exception: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22c881415e961af134ee50669b07c8ea
+*** Element info: {Using=css selector, value=//div[@id='form-errors']//ul//li//strong}
+2024-12-31 07:32:02,063 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22c881415e961af134ee50669b07c8ea
+2024-12-31 07:34:32,579 - AgilityLoyalty -INFO - Launch
+2024-12-31 07:34:53,374 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 07:35:10,601 - AgilityLoyalty -INFO - Login
+2024-12-31 07:35:28,341 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 07:35:42,521 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 07:36:12,172 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 09:21:09,793 - AgilityLoyalty -INFO - Launch
+2024-12-31 09:21:19,328 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 09:21:27,022 - AgilityLoyalty -INFO - Login
+2024-12-31 09:21:35,528 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 09:21:43,114 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 09:21:56,252 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 10:11:14,320 - AgilityLoyalty -INFO - Launch
+2024-12-31 10:11:15,526 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 10:11:15,670 - AgilityLoyalty -INFO - Login
+2024-12-31 10:11:19,613 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 10:11:22,874 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 10:11:26,157 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 10:11:26,781 - AgilityLoyalty -INFO - Failed to get missing fields due to exception: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60534}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: babfb07a8d1e1ac9fc1454962eb9656f
+*** Element info: {Using=css selector, value=//div[@id='form-errors']//ul//li//strong}
+2024-12-31 10:11:36,995 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60534}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: babfb07a8d1e1ac9fc1454962eb9656f
+2024-12-31 10:12:47,726 - AgilityLoyalty -INFO - Launch
+2024-12-31 10:12:56,926 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 10:13:04,549 - AgilityLoyalty -INFO - Login
+2024-12-31 10:13:13,316 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 10:13:20,068 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 10:13:32,693 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 10:14:51,812 - AgilityLoyalty -INFO - Failed to get missing fields due to exception: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60613}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbc60939b39c50f810f0f8cc2bcdf5f2
+*** Element info: {Using=css selector, value=//div[@id='form-errors']//ul//li//strong}
+2024-12-31 10:17:31,382 - AgilityLoyalty -INFO - Launch
+2024-12-31 10:17:32,429 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 10:17:32,550 - AgilityLoyalty -INFO - Login
+2024-12-31 10:17:36,466 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 10:17:38,828 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 10:17:41,982 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 10:17:42,492 - AgilityLoyalty -INFO - Failed to get missing fields due to exception: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0b7e854dcb1157f9e562a4e03520178
+*** Element info: {Using=css selector, value=//div[@id='form-errors']//ul//li//strong}
+2024-12-31 10:17:52,659 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0b7e854dcb1157f9e562a4e03520178
+2024-12-31 10:20:54,404 - AgilityLoyalty -INFO - Launch
+2024-12-31 10:20:55,499 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 10:20:55,641 - AgilityLoyalty -INFO - Login
+2024-12-31 10:20:59,868 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 10:21:02,198 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 10:21:05,380 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 10:21:05,836 - AgilityLoyalty -ERROR - Failed due log in report due to exception Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "utilities.Reporting.test" is null
+2024-12-31 10:21:06,047 - AgilityLoyalty -INFO - Failed to find element by text due to exception: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //*[contains(text(),'The following mandatory subfields aren't filled:\nTag 003 subfield 0 control field in tab 0 Go to field\nTag 942 subfield c Koha item type in tab 9 Go to field')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[contains(text(),'The following mandatory subfields aren't filled:\nTag 003 subfield 0 control field in tab 0 Go to field\nTag 942 subfield c Koha item type in tab 9 Go to field')]' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e64c243f18dbaa07cdf0bc4c55613bcb
+*** Element info: {Using=xpath, value=//*[contains(text(),'The following mandatory subfields aren't filled:
+Tag 003 subfield 0 control field in tab 0 Go to field
+Tag 942 subfield c Koha item type in tab 9 Go to field')]}
+2024-12-31 10:21:06,178 - AgilityLoyalty -INFO - Failed to create book due to exception: Cannot invoke "org.openqa.selenium.WebElement.getTagName()" because "inputField" is null
+2024-12-31 10:40:17,642 - AgilityLoyalty -INFO - Launch
+2024-12-31 10:40:18,880 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 10:40:19,002 - AgilityLoyalty -INFO - Login
+2024-12-31 10:40:23,563 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 10:40:25,521 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 10:40:35,661 - AgilityLoyalty -INFO - Failed to create book due to exception: Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2024-12-31 10:41:41,978 - AgilityLoyalty -INFO - Launch
+2024-12-31 10:41:42,954 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 10:41:43,077 - AgilityLoyalty -INFO - Login
+2024-12-31 10:41:47,596 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 10:41:50,204 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 10:41:53,388 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 10:42:04,017 - AgilityLoyalty -INFO - Failed to find element by text due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(normalize-space(text()),'Tag 003 subfield 0 control field in tab 0 Go to field')]"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc3131c71a6e983d013302c1255c3542
+*** Element info: {Using=xpath, value=//*[contains(normalize-space(text()),'Tag 003 subfield 0 control field in tab 0 Go to field')]}
+2024-12-31 10:42:14,237 - AgilityLoyalty -INFO - Failed to find element by text due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(normalize-space(text()),'Tag 942 subfield c Koha item type in tab 9 Go to field')]"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc3131c71a6e983d013302c1255c3542
+*** Element info: {Using=xpath, value=//*[contains(normalize-space(text()),'Tag 942 subfield c Koha item type in tab 9 Go to field')]}
+2024-12-31 10:42:24,467 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc3131c71a6e983d013302c1255c3542
+2024-12-31 11:30:49,922 - AgilityLoyalty -INFO - Launch
+2024-12-31 11:30:52,063 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 11:30:52,199 - AgilityLoyalty -INFO - Login
+2024-12-31 11:30:58,317 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 11:31:01,222 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 11:31:06,275 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 11:31:07,322 - AgilityLoyalty -INFO - Failed to find element by text due to exception: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "text" is null
+2024-12-31 11:31:07,528 - AgilityLoyalty -INFO - Failed to create book due to exception: Index 2 out of bounds for length 2
+2024-12-31 12:13:49,206 - AgilityLoyalty -INFO - Launch
+2024-12-31 12:13:51,359 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 12:13:51,516 - AgilityLoyalty -INFO - Login
+2024-12-31 12:13:56,996 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 12:14:00,844 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 12:14:05,684 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 12:14:16,659 - AgilityLoyalty -INFO - Failed to get missing fields due to exception: no such element: Unable to locate element: {"method":"css selector","selector":"li\[0\]"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52345}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c1a2e5dc71ae5997992b63bbfd59e88
+*** Element info: {Using=tag name, value=li[0]}
+2024-12-31 12:14:28,042 - AgilityLoyalty -INFO - Failed to get missing fields due to exception: no such element: Unable to locate element: {"method":"css selector","selector":"li\[1\]"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52345}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c1a2e5dc71ae5997992b63bbfd59e88
+*** Element info: {Using=tag name, value=li[1]}
+2024-12-31 12:14:29,215 - AgilityLoyalty -INFO - Failed to find element by text due to exception: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "text" is null
+2024-12-31 12:14:39,519 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52345}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c1a2e5dc71ae5997992b63bbfd59e88
+2024-12-31 12:16:48,267 - AgilityLoyalty -INFO - Launch
+2024-12-31 12:16:50,024 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 12:16:50,203 - AgilityLoyalty -INFO - Login
+2024-12-31 12:16:55,907 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 12:16:59,138 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 12:17:04,814 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 12:17:15,793 - AgilityLoyalty -INFO - Failed to get missing fields due to exception: no such element: Unable to locate element: {"method":"css selector","selector":"li\[0\]"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0b4fa05a5a74dd192f8921250cde2f
+*** Element info: {Using=tag name, value=li[0]}
+2024-12-31 12:17:27,173 - AgilityLoyalty -INFO - Failed to get missing fields due to exception: no such element: Unable to locate element: {"method":"css selector","selector":"li\[1\]"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0b4fa05a5a74dd192f8921250cde2f
+*** Element info: {Using=tag name, value=li[1]}
+2024-12-31 12:17:28,356 - AgilityLoyalty -INFO - Failed to find element by text due to exception: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "text" is null
+2024-12-31 12:17:38,784 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0b4fa05a5a74dd192f8921250cde2f
+2024-12-31 12:21:11,912 - AgilityLoyalty -INFO - Launch
+2024-12-31 12:21:13,446 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 12:21:13,582 - AgilityLoyalty -INFO - Login
+2024-12-31 12:21:19,149 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 12:21:22,511 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 12:21:28,456 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 12:21:39,303 - AgilityLoyalty -INFO - Failed to get missing fields due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='form-errors']//ul/li[0]//a"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52725}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3299b4d5606add3b4e5a902732d9ab23
+*** Element info: {Using=xpath, value=//*[@id='form-errors']//ul/li[0]//a}
+2024-12-31 12:21:40,857 - AgilityLoyalty -INFO - Successfully clicked on the missing field link.
+2024-12-31 12:21:42,068 - AgilityLoyalty -INFO - Failed to find element by text due to exception: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "text" is null
+2024-12-31 12:21:52,443 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52725}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3299b4d5606add3b4e5a902732d9ab23
+2024-12-31 12:24:21,925 - AgilityLoyalty -INFO - Launch
+2024-12-31 12:24:23,660 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 12:24:23,815 - AgilityLoyalty -INFO - Login
+2024-12-31 12:24:29,793 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 12:24:33,359 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 12:24:38,582 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 12:24:49,482 - AgilityLoyalty -INFO - Failed to get missing fields due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='form-errors']//ul[1]/li[0]//a"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f113e1fa23dc21241ee8c00db80d4d04
+*** Element info: {Using=xpath, value=//*[@id='form-errors']//ul[1]/li[0]//a}
+2024-12-31 12:24:51,103 - AgilityLoyalty -INFO - Successfully clicked on the missing field link.
+2024-12-31 12:24:52,265 - AgilityLoyalty -INFO - Failed to find element by text due to exception: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "text" is null
+2024-12-31 12:25:02,611 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f113e1fa23dc21241ee8c00db80d4d04
+2024-12-31 12:27:20,032 - AgilityLoyalty -INFO - Launch
+2024-12-31 12:27:21,593 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 12:27:21,750 - AgilityLoyalty -INFO - Login
+2024-12-31 12:27:27,702 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 12:27:30,884 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 12:27:36,087 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 12:27:37,231 - AgilityLoyalty -INFO - Successfully clicked on the missing field link.
+2024-12-31 12:27:38,789 - AgilityLoyalty -INFO - Successfully clicked on the missing field link.
+2024-12-31 12:27:39,983 - AgilityLoyalty -INFO - Failed to find element by text due to exception: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "text" is null
+2024-12-31 12:27:50,328 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7276af48cdaa7e6a425e11ab892818e2
+2024-12-31 12:52:00,119 - AgilityLoyalty -INFO - Launch
+2024-12-31 12:52:01,691 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2024-12-31 12:52:01,830 - AgilityLoyalty -INFO - Login
+2024-12-31 12:52:07,179 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 12:52:10,294 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2024-12-31 12:52:15,135 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2024-12-31 12:52:16,136 - AgilityLoyalty -INFO - Successfully clicked on the missing field link.
+2024-12-31 12:52:17,871 - AgilityLoyalty -INFO - Successfully clicked on the missing field link.
+2024-12-31 12:52:29,352 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '172.20.10.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61412}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7c749290b75cc718829f403610ecaab
+2025-01-03 10:12:20,615 - AgilityLoyalty -INFO - Launch
+2025-01-03 10:12:21,900 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-03 10:12:22,048 - AgilityLoyalty -INFO - Login
+2025-01-03 10:12:26,858 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 10:12:29,380 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 10:12:39,583 - AgilityLoyalty -INFO - Failed to create book due to exception: Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2025-01-03 10:45:33,346 - AgilityLoyalty -INFO - Launch
+2025-01-03 10:45:34,637 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-03 10:45:34,784 - AgilityLoyalty -INFO - Login
+2025-01-03 10:45:39,625 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 10:45:42,127 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 10:45:45,357 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2025-01-03 10:45:46,131 - AgilityLoyalty -INFO - Successfully clicked on the missing field link.
+2025-01-03 10:45:57,510 - AgilityLoyalty -INFO - Failed to handle input field: control field due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4aeb01518f145b08d41787d35e9c3c7f
+2025-01-03 10:45:57,927 - AgilityLoyalty -INFO - Successfully clicked on the missing field link.
+2025-01-03 10:46:09,350 - AgilityLoyalty -INFO - Failed to handle input field: Koha item type due to exception: Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2025-01-03 10:46:19,631 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4aeb01518f145b08d41787d35e9c3c7f
+2025-01-03 10:48:04,846 - AgilityLoyalty -INFO - Launch
+2025-01-03 10:48:06,020 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-03 10:48:06,176 - AgilityLoyalty -INFO - Login
+2025-01-03 10:48:10,720 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 10:48:13,175 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 10:48:16,563 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2025-01-03 10:48:17,431 - AgilityLoyalty -INFO - Successfully clicked on the missing field link.
+2025-01-03 10:48:28,772 - AgilityLoyalty -INFO - Failed to handle input field: control field due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54894}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e93c72b717e7daf4d75a18892524c962
+2025-01-03 10:48:30,079 - AgilityLoyalty -INFO - Failed to get missing fields due to exception: element click intercepted: Element <a class="linkfield btn btn-link" href="#" data-tab="9" data-field="tag_942_subfield_c_314116_417560">...</a> is not clickable at point (736, 58). Other element would receive the click: <ul class="nav nav-tabs" role="tablist">...</ul>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54894}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e93c72b717e7daf4d75a18892524c962
+2025-01-03 10:48:41,411 - AgilityLoyalty -INFO - Failed to handle input field: Koha item type due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54894}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e93c72b717e7daf4d75a18892524c962
+2025-01-03 10:48:51,741 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54894}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e93c72b717e7daf4d75a18892524c962
+2025-01-03 11:00:04,618 - AgilityLoyalty -INFO - Launch
+2025-01-03 11:00:05,738 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-03 11:00:05,862 - AgilityLoyalty -INFO - Login
+2025-01-03 11:00:10,201 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 11:00:14,092 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 11:00:18,772 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2025-01-03 11:00:29,783 - AgilityLoyalty -INFO - Failed to handle Koha item type field due to exception: Cannot invoke "org.openqa.selenium.WebElement.click()" because "actualLocator" is null
+2025-01-03 11:00:40,151 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a1935edc2b75dc22c8efb5601590b38
+2025-01-03 11:07:41,169 - AgilityLoyalty -INFO - Launch
+2025-01-03 11:07:42,509 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-03 11:07:42,665 - AgilityLoyalty -INFO - Login
+2025-01-03 11:07:47,839 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 11:07:50,468 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 11:07:54,343 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2025-01-03 11:08:05,778 - AgilityLoyalty -INFO - Failed to create book due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: caf72fe048abd0434349312fbcbc70b9
+2025-01-03 11:09:21,107 - AgilityLoyalty -INFO - Launch
+2025-01-03 11:09:22,353 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-03 11:09:22,496 - AgilityLoyalty -INFO - Login
+2025-01-03 11:09:26,860 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 11:09:29,326 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 11:09:33,379 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2025-01-03 11:09:44,522 - AgilityLoyalty -INFO - Failed to handle Koha item type field due to exception: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'WKWZTN23FJYB4Y9', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SRIUPP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 197a3353e745f963c88df7f9a9a3e4bc
+2025-01-03 11:10:17,411 - AgilityLoyalty -INFO - Launch
+2025-01-03 11:10:19,149 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-03 11:10:19,298 - AgilityLoyalty -INFO - Login
+2025-01-03 11:10:24,762 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 11:10:27,238 - AgilityLoyalty -INFO - Window is switched to Z39.50/SRU search results › Koha
+2025-01-03 11:10:30,758 - AgilityLoyalty -INFO - Window is switched to Add MARC record › Cataloging › Koha
+2025-01-03 11:10:46,042 - AgilityLoyalty -INFO - Failed to get text due to exception: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
+2025-01-03 11:10:46,225 - AgilityLoyalty -INFO - Validation failed. Expected: Expected Book Title, Found: null
+2025-01-04 15:49:11,081 - AgilityLoyalty -INFO - Launch
+2025-01-04 15:49:13,208 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-04 15:49:13,389 - AgilityLoyalty -INFO - Login
+2025-01-04 15:56:15,508 - AgilityLoyalty -INFO - Launch
+2025-01-04 15:56:16,800 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-04 15:56:16,972 - AgilityLoyalty -INFO - Login
+2025-01-04 16:00:56,254 - AgilityLoyalty -INFO - Launch
+2025-01-04 16:00:57,821 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-04 16:00:58,050 - AgilityLoyalty -INFO - Login
+2025-01-04 16:15:08,419 - AgilityLoyalty -INFO - Launch
+2025-01-04 16:15:09,666 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-04 16:15:09,802 - AgilityLoyalty -INFO - Login
+2025-01-04 16:21:53,462 - AgilityLoyalty -INFO - Launch
+2025-01-04 16:21:54,884 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-04 16:21:55,056 - AgilityLoyalty -INFO - Login
+2025-01-04 16:36:52,066 - AgilityLoyalty -INFO - Launch
+2025-01-04 16:36:53,614 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-04 16:36:53,744 - AgilityLoyalty -INFO - Login
+2025-01-05 06:22:15,414 - AgilityLoyalty -INFO - Launch
+2025-01-05 06:22:16,748 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-05 06:22:16,953 - AgilityLoyalty -INFO - Login
+2025-01-05 06:23:44,959 - AgilityLoyalty -INFO - Launch
+2025-01-05 06:23:46,243 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-05 06:23:46,391 - AgilityLoyalty -INFO - Login
+2025-01-05 06:26:48,653 - AgilityLoyalty -INFO - Launch
+2025-01-05 06:26:50,106 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-05 06:26:50,254 - AgilityLoyalty -INFO - Login
+2025-01-05 06:40:27,021 - AgilityLoyalty -INFO - Launch
+2025-01-05 06:40:28,456 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-05 06:40:28,602 - AgilityLoyalty -INFO - Login
+2025-01-05 06:41:58,818 - AgilityLoyalty -INFO - Launch
+2025-01-05 06:42:00,187 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-05 06:42:00,356 - AgilityLoyalty -INFO - Login
+2025-01-05 06:44:31,028 - AgilityLoyalty -INFO - Launch
+2025-01-05 06:44:49,822 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-05 06:45:04,957 - AgilityLoyalty -INFO - Login
+2025-01-05 07:14:02,077 - AgilityLoyalty -INFO - Launch
+2025-01-05 07:14:03,385 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-05 07:14:03,527 - AgilityLoyalty -INFO - Login
+2025-01-05 07:14:46,936 - AgilityLoyalty -INFO - Launch
+2025-01-05 07:14:48,218 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-05 07:14:48,390 - AgilityLoyalty -INFO - Login
+2025-01-05 07:16:42,295 - AgilityLoyalty -INFO - Launch
+2025-01-05 07:16:43,381 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-05 07:16:43,527 - AgilityLoyalty -INFO - Login
+2025-01-05 07:23:00,749 - AgilityLoyalty -INFO - Launch
+2025-01-05 07:23:02,095 - AgilityLoyalty -INFO - Failed to login due to exception current thread is not owner
+2025-01-05 07:23:02,237 - AgilityLoyalty -INFO - Login
